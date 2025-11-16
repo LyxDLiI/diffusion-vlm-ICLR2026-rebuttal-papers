@@ -3521,45 +3521,5 @@ These results establish a principled mechanism for transforming knowledge about 
 
 ---
 
-## 📈 Statistics
 
-- **Average Similarity**: 0.7382 (calculated from 112 papers with similarity scores)
-- **Papers with 3+ Positive Reviews**: 69 (44.8%)
-- **Papers with 2 Positive Reviews**: 85 (55.2%)
-
-### Distribution by Primary Area
-
-- **foundation or frontier models, including LLMs**: 57 papers (37.0%)
-- **generative models**: 54 papers (35.1%)
-- **applications to computer vision, audio, language, and other modalities**: 29 papers (18.8%)
-- **alignment, fairness, safety, privacy, and societal considerations**: 4 papers (2.6%)
-- **datasets and benchmarks**: 2 papers (1.3%)
-- **unsupervised, self-supervised, semi-supervised, and supervised representation learning**: 2 papers (1.3%)
-- **applications to robotics, autonomy, planning**: 1 papers (0.6%)
-- **interpretability and explainable AI**: 1 papers (0.6%)
-- **transfer learning, meta learning, and lifelong learning**: 1 papers (0.6%)
-- **infrastructure, software libraries, hardware, systems, etc.**: 1 papers (0.6%)
-- **learning theory**: 1 papers (0.6%)
-- **other topics in machine learning (i.e., none of the above)**: 1 papers (0.6%)
-
-### Top 15 Keywords
-
-1. **Multimodal Large Language Models** (8 papers)
-2. **Reinforcement Learning** (7 papers)
-3. **Diffusion Models** (7 papers)
-4. **Image Editing** (6 papers)
-5. **Large Vision-Language Models** (6 papers)
-6. **Multimodal Large Language Model** (5 papers)
-7. **Diffusion Language Models** (5 papers)
-8. **Vision-Language Models** (5 papers)
-9. **large language models** (4 papers)
-10. **Diffusion LLM** (4 papers)
-11. **Inference Acceleration** (4 papers)
-12. **Diffusion** (3 papers)
-13. **efficiency** (3 papers)
-14. **VLM** (3 papers)
-15. **Image Generation** (3 papers)
-
----
-
-*Report generated from filtered ICLR 2026 papers with rating-based filtering*
+*Report generated from filtered ICLR 2026 papers (first review) with rating-based filtering*
