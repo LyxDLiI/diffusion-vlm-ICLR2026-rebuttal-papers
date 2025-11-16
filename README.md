@@ -1,4 +1,4 @@
-# 🎯 Diffusion VLM Research Report
+# 🎯 Diffusion VLM Papers for the First Rebuttal at ICLR2026
 
 ## 📊 Overview
 
