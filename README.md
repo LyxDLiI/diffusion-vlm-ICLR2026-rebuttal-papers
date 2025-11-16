@@ -7,10 +7,10 @@
 - **Min Positive Reviews**: 2
 - **Rating Threshold**: 6
 
-### Source Files
-- From_Denoising_to_Refining_results.json
-- Lavidao_results.json
-- llada_v_results.json
+### Source papers
+- From Denoising to Refining: A Corrective Framework for Vision-Language Diffusion Model
+- Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal Unders...
+- Llada-v
 
 ---
 
