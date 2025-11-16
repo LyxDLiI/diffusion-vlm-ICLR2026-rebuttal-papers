@@ -1,16 +1,17 @@
-# 🎯 Diffusion VLM Papers for the First Rebuttal at ICLR2026
+# 🎯 Diffusion VLM Research Report (Extended)
 
 ## 📊 Overview
 
 - **Embedding Model**: `Qwen/Qwen3-Embedding-8B`
-- **Total Papers**: **112**
+- **Total Papers**: **154** (after deduplication)
 - **Min Positive Reviews**: 2
 - **Rating Threshold**: 6
 
-### Source papers
-- From Denoising to Refining: A Corrective Framework for Vision-Language Diffusion Model
-- Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal Unders...
-- Llada-v
+### Source Paper
+- From Denoising to Refining results
+- Lavidao
+- Llada_V
+- Fast_dllm
 
 ---
 
@@ -22,39 +23,39 @@
 | 2 | [From Denoising to Refining: A Corrective Framework for Vision-Language Diffus...](#2-F3EX1ywrwa) | 0.9810 | 2/3 ✅ |
 | 3 | [UniLiP: Adapting CLIP for Unified Multimodal Understanding, Generation and Ed...](#3-6tx4BGjwJP) | 0.8383 | 3/4 ✅ |
 | 4 | [MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid Vision ...](#4-FIXPFUeO9Z) | 0.8155 | 2/3 ✅ |
-| 5 | [LaTtE-Flow: Layerwise Timestep-Expert Flow-based Transformer](#5-lVpWNivXEU) | 0.8043 | 3/4 ✅ |
-| 6 | [Query-Kontext: An Unified Multimodal Model for Image Generation and Editing](#6-IRrQgf2GAl) | 0.7995 | 2/4 ✅ |
-| 7 | [STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning](#7-LhmED2c0dP) | 0.7971 | 2/4 ✅ |
-| 8 | [Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion...](#8-pG0WTde3pR) | 0.7937 | 2/4 ✅ |
-| 9 | [OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows](#9-je3ezjX4LD) | 0.7829 | 3/4 ✅ |
-| 10 | [Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision](#10-5nevWRoNjn) | 0.7820 | 4/5 ✅ |
-| 11 | [Reconstruction Alignment Improves Unified Multimodal Models](#11-ppQWp8yrm7) | 0.7819 | 3/4 ✅ |
-| 12 | [InstructX: Towards Unified Visual Editing with MLLM Guidance](#12-NPcdp9OIf8) | 0.7751 | 2/4 ✅ |
-| 13 | [Interleaving Reasoning for Better Text-to-Image Generation](#13-lLNNzBQPas) | 0.7736 | 2/4 ✅ |
-| 14 | [Sparse Shortcuts: Facilitating Efficient Fusion in Multimodal Large Language ...](#14-p9Hc1o6By5) | 0.7730 | 2/4 ✅ |
-| 15 | [Vision-Centric Activation and Coordination for Multimodal Large Language Models](#15-Qvx7G5Fsy0) | 0.7730 | 2/4 ✅ |
-| 16 | [GoT-R1: Unleashing Reasoning Capability of Autoregressive Visual Generation w...](#16-Z9FjSaBuYt) | 0.7679 | 2/4 ✅ |
-| 17 | [VUGEN: Visual Understanding priors for GENeration](#17-tubF5vyrQ0) | 0.7673 | 2/4 ✅ |
-| 18 | [ORION: Decoupling and Alignment for Unified Autoregressive Understanding and ...](#18-PP7j0xvvUB) | 0.7667 | 2/3 ✅ |
-| 19 | [Draw-In-Mind: Rebalancing Designer-Painter Roles in Unified Multimodal Models...](#19-FaJ7WwIstO) | 0.7648 | 3/4 ✅ |
-| 20 | [MILR: Improving Multimodal Image Generation via Test-Time Latent Reasoning](#20-dw0pORtnKI) | 0.7634 | 3/4 ✅ |
-| 21 | [Jodi: Unification of Visual Generation and Understanding via Joint Modeling](#21-Hd1Wciuyka) | 0.7631 | 2/4 ✅ |
-| 22 | [Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Diffus...](#22-UvQOcw2oCD) | 0.7623 | 2/4 ✅ |
-| 23 | [Generative Universal Verifier as Multimodal Meta-Reasoner](#23-DM0Y0oL33T) | 0.7609 | 3/3 ✅ |
-| 24 | [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](#24-M5MfDi4gJO) | 0.7596 | 4/5 ✅ |
-| 25 | [MoDA: Modulation Adapter for Fine-Grained Visual Understanding in Instruction...](#25-gLPxpqYRqH) | 0.7593 | 2/4 ✅ |
-| 26 | [Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in MLLMs](#26-xF0Dcmvsl0) | 0.7590 | 2/3 ✅ |
-| 27 | [VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration](#27-57IXIg6nZ0) | 0.7576 | 3/4 ✅ |
-| 28 | [Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refi...](#28-55oAbWpTcO) | 0.7553 | 4/4 ✅ |
-| 29 | [VLSA: Enhancing Vision-Language Understanding via Perception and Cognition Al...](#29-lU4LPHfvaF) | 0.7535 | 2/4 ✅ |
-| 30 | [LaVi: Efficient Large Vision-Language Models via Internal Feature Modulation](#30-uUtIyxeBUc) | 0.7517 | 2/5 ✅ |
-| 31 | [Parallel Multimodal Diffusion Language Models for Thinking-Aware Editing and ...](#31-mkQAd11ovn) | 0.7504 | 3/4 ✅ |
-| 32 | [Guided Star-Shaped Masked Diffusion](#32-wNAUAPfceN) | 0.7500 | 3/4 ✅ |
-| 33 | [Mitigating Visual Hallucinations via Semantic Curriculum Preference Optimizat...](#33-DztuuQCn13) | 0.7466 | 2/3 ✅ |
-| 34 | [EDITOR: Effective and Interpretable Prompt Inversion for Text-to-Image Diffus...](#34-LHwDWVN3IX) | 0.7438 | 2/4 ✅ |
-| 35 | [Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual R...](#35-EKxHftIpcB) | 0.7418 | 2/4 ✅ |
-| 36 | [ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](#36-gu3DRaDWiI) | 0.7406 | 2/4 ✅ |
-| 37 | [BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Train...](#37-9aI6XUDYLX) | 0.7394 | 2/4 ✅ |
+| 5 | [BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Train...](#5-9aI6XUDYLX) | 0.8135 | 2/4 ✅ |
+| 6 | [LaTtE-Flow: Layerwise Timestep-Expert Flow-based Transformer](#6-lVpWNivXEU) | 0.8043 | 3/4 ✅ |
+| 7 | [Query-Kontext: An Unified Multimodal Model for Image Generation and Editing](#7-IRrQgf2GAl) | 0.7995 | 2/4 ✅ |
+| 8 | [STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning](#8-LhmED2c0dP) | 0.7971 | 2/4 ✅ |
+| 9 | [Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion...](#9-pG0WTde3pR) | 0.7937 | 2/4 ✅ |
+| 10 | [OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows](#10-je3ezjX4LD) | 0.7829 | 3/4 ✅ |
+| 11 | [Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision](#11-5nevWRoNjn) | 0.7820 | 4/5 ✅ |
+| 12 | [Reconstruction Alignment Improves Unified Multimodal Models](#12-ppQWp8yrm7) | 0.7819 | 3/4 ✅ |
+| 13 | [InstructX: Towards Unified Visual Editing with MLLM Guidance](#13-NPcdp9OIf8) | 0.7751 | 2/4 ✅ |
+| 14 | [Interleaving Reasoning for Better Text-to-Image Generation](#14-lLNNzBQPas) | 0.7736 | 2/4 ✅ |
+| 15 | [Sparse Shortcuts: Facilitating Efficient Fusion in Multimodal Large Language ...](#15-p9Hc1o6By5) | 0.7730 | 2/4 ✅ |
+| 16 | [Vision-Centric Activation and Coordination for Multimodal Large Language Models](#16-Qvx7G5Fsy0) | 0.7730 | 2/4 ✅ |
+| 17 | [GoT-R1: Unleashing Reasoning Capability of Autoregressive Visual Generation w...](#17-Z9FjSaBuYt) | 0.7679 | 2/4 ✅ |
+| 18 | [VUGEN: Visual Understanding priors for GENeration](#18-tubF5vyrQ0) | 0.7673 | 2/4 ✅ |
+| 19 | [ORION: Decoupling and Alignment for Unified Autoregressive Understanding and ...](#19-PP7j0xvvUB) | 0.7667 | 2/3 ✅ |
+| 20 | [Draw-In-Mind: Rebalancing Designer-Painter Roles in Unified Multimodal Models...](#20-FaJ7WwIstO) | 0.7648 | 3/4 ✅ |
+| 21 | [MILR: Improving Multimodal Image Generation via Test-Time Latent Reasoning](#21-dw0pORtnKI) | 0.7634 | 3/4 ✅ |
+| 22 | [Jodi: Unification of Visual Generation and Understanding via Joint Modeling](#22-Hd1Wciuyka) | 0.7631 | 2/4 ✅ |
+| 23 | [Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Diffus...](#23-UvQOcw2oCD) | 0.7623 | 2/4 ✅ |
+| 24 | [Generative Universal Verifier as Multimodal Meta-Reasoner](#24-DM0Y0oL33T) | 0.7609 | 3/3 ✅ |
+| 25 | [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](#25-M5MfDi4gJO) | 0.7596 | 4/5 ✅ |
+| 26 | [MoDA: Modulation Adapter for Fine-Grained Visual Understanding in Instruction...](#26-gLPxpqYRqH) | 0.7593 | 2/4 ✅ |
+| 27 | [Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in MLLMs](#27-xF0Dcmvsl0) | 0.7590 | 2/3 ✅ |
+| 28 | [VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration](#28-57IXIg6nZ0) | 0.7576 | 3/4 ✅ |
+| 29 | [Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refi...](#29-55oAbWpTcO) | 0.7553 | 4/4 ✅ |
+| 30 | [VLSA: Enhancing Vision-Language Understanding via Perception and Cognition Al...](#30-lU4LPHfvaF) | 0.7535 | 2/4 ✅ |
+| 31 | [LaVi: Efficient Large Vision-Language Models via Internal Feature Modulation](#31-uUtIyxeBUc) | 0.7517 | 2/5 ✅ |
+| 32 | [Parallel Multimodal Diffusion Language Models for Thinking-Aware Editing and ...](#32-mkQAd11ovn) | 0.7504 | 3/4 ✅ |
+| 33 | [Guided Star-Shaped Masked Diffusion](#33-wNAUAPfceN) | 0.7500 | 3/4 ✅ |
+| 34 | [Mitigating Visual Hallucinations via Semantic Curriculum Preference Optimizat...](#34-DztuuQCn13) | 0.7466 | 2/3 ✅ |
+| 35 | [EDITOR: Effective and Interpretable Prompt Inversion for Text-to-Image Diffus...](#35-LHwDWVN3IX) | 0.7438 | 2/4 ✅ |
+| 36 | [Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual R...](#36-EKxHftIpcB) | 0.7418 | 2/4 ✅ |
+| 37 | [ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](#37-gu3DRaDWiI) | 0.7406 | 2/4 ✅ |
 | 38 | [BideDPO: Conditional Image Generation with Simultaneous Text and Condition Al...](#38-DNBlGOsIxn) | 0.7391 | 2/4 ✅ |
 | 39 | [VOGUE:  Unified Understanding, Generation, and Editing for Videos](#39-EDCJTaR9bk) | 0.7391 | 3/4 ✅ |
 | 40 | [VisCodex: Unified Multimodal Code Generation via Merging Vision and Coding Mo...](#40-hUXzPauNEM) | 0.7389 | 3/4 ✅ |
@@ -130,6 +131,48 @@
 | 110 | [DiffMoE: Dynamic Token Selection for Scalable Diffusion Transformers](#110-ANKQqRicBM) | 0.6885 | 2/3 ✅ |
 | 111 | [Hallucination-aware Intermediate Representation Editing in Large Vision-Lanug...](#111-v8C2Cd0lAh) | 0.6865 | 3/4 ✅ |
 | 112 | [Accelerating Discrete Diffusion Decoding with Parallel Scan](#112-rQM3oU9cyg) | 0.6852 | 2/5 ✅ |
+| 113 | [Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Inse...](#113-VbvXjs5f72) | N/A | 5/5 ✅ |
+| 114 | [Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Trainin...](#114-SdnkB5pGbq) | N/A | 4/4 ✅ |
+| 115 | [Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing](#115-t5uLZSRjhF) | N/A | 4/4 ✅ |
+| 116 | [FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Langua...](#116-ue1zFeD275) | N/A | 4/4 ✅ |
+| 117 | [Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model](#117-z9MlGsQbzR) | N/A | 4/4 ✅ |
+| 118 | [Fast-dLLM v2: Efficient Block-Diffusion LLM](#118-1NZ3DHF9nT) | N/A | 3/4 ✅ |
+| 119 | [dParallel: Learnable Parallel Decoding for dLLMs](#119-hVOcstAURb) | N/A | 3/4 ✅ |
+| 120 | [Learning to Parallel: Accelerating Diffusion Large Language Models via Adapti...](#120-bFJ8Sdr224) | N/A | 3/4 ✅ |
+| 121 | [Planned Diffusion](#121-wZN8debH4W) | N/A | 3/4 ✅ |
+| 122 | [Diffusion Language Model Knows the Answer Before It Decodes](#122-g88nt4ieTG) | N/A | 3/4 ✅ |
+| 123 | [ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and S...](#123-PhEHuo7oMm) | N/A | 3/5 ✅ |
+| 124 | [LATTS: LAtent space Test Time Scaling for diffusion language models](#124-Q524K1mgCc) | N/A | 3/4 ✅ |
+| 125 | [Improving Reasoning for Diffusion Language Models via Group Diffusion Policy ...](#125-JaqvespRBP) | N/A | 3/4 ✅ |
+| 126 | [Fast Language Generation through Discrete Diffusion Divergence Instruct](#126-mtdyZsa47V) | N/A | 3/3 ✅ |
+| 127 | [FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference](#127-wXAn7orB1H) | N/A | 3/4 ✅ |
+| 128 | [Soft-Masked Diffusion Language Models](#128-Gba02UMvrG) | N/A | 3/4 ✅ |
+| 129 | [LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse ...](#129-YWCHLdNGVU) | N/A | 3/5 ✅ |
+| 130 | [ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Ski...](#130-O2WvMkJbws) | N/A | 2/4 ✅ |
+| 131 | [Accelerating Diffusion Large Language Models with SlowFast Sampling: The Thre...](#131-Uh17FiwF4q) | N/A | 2/4 ✅ |
+| 132 | [Attention Is All You Need for KV Cache in Diffusion LLMs](#132-zkUbhdAiFJ) | N/A | 2/4 ✅ |
+| 133 | [d$^2$Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching](#133-SjInfpK5RM) | N/A | 2/4 ✅ |
+| 134 | [DPad: Efficient Diffusion Language Models with Suffix Dropout](#134-0yOsSMU1eY) | N/A | 2/4 ✅ |
+| 135 | [Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond i...](#135-kIbFgoCq86) | N/A | 2/4 ✅ |
+| 136 | [SparseD: Sparse Attention for Diffusion Language Models](#136-dwbrZtYP04) | N/A | 2/4 ✅ |
+| 137 | [Semantic-Aware Diffusion LLM Inference With Adaptive Block Size](#137-0Cv9PwL7cI) | N/A | 2/4 ✅ |
+| 138 | [Diffusion Language Models are Provably Optimal Parallel Samplers](#138-5bkAbueJwM) | N/A | 2/4 ✅ |
+| 139 | [Esoteric Language Models](#139-XepOJx5ng4) | N/A | 2/4 ✅ |
+| 140 | [DLM-One: Diffusion Language Models for One-Step Sequence Generation](#140-4g3dTrLnoF) | N/A | 2/4 ✅ |
+| 141 | [Parallel Prompting: Fast LLM Inference for Shared-Context, Short-to-Moderate ...](#141-T5KBO4IeM2) | N/A | 2/4 ✅ |
+| 142 | [SpecTr-GBV: Multi-Draft Block Verification Accelerating Speculative Decoding](#142-5FAUpLjndj) | N/A | 2/4 ✅ |
+| 143 | [EDIT: Early Diffusion Inference Termination for dLLMs Based on Dynamics of Tr...](#143-dQU7OKCagD) | N/A | 2/4 ✅ |
+| 144 | [DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Base...](#144-UmdmJRGb9u) | N/A | 2/4 ✅ |
+| 145 | [Inference-Time Scaling of Diffusion Language Models with Particle Gibbs Sampling](#145-je6FN2TuWf) | N/A | 2/3 ✅ |
+| 146 | [Draft-based Approximate Inference for LLMs](#146-0vbYakkECY) | N/A | 2/4 ✅ |
+| 147 | [ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion...](#147-OsZr5T7Cd0) | N/A | 2/4 ✅ |
+| 148 | [ScalingCache: Extreme Acceleration of DiTs through Difference Scaling and Dyn...](#148-uXmbrTlko7) | N/A | 2/4 ✅ |
+| 149 | [Parallel Token Generation for  Language Models](#149-AGJomYSrUG) | N/A | 2/4 ✅ |
+| 150 | [LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences](#150-6RJ8fZwm4P) | N/A | 2/4 ✅ |
+| 151 | [PARD: Accelerating LLM Inference with Low‑Cost PARallel Draft Model Adaptation](#151-XbOyv7iVGL) | N/A | 2/4 ✅ |
+| 152 | [Expected Attention: KV Cache Compression by Estimating Attention From Future ...](#152-VmojW15eRc) | N/A | 2/4 ✅ |
+| 153 | [LoopServe:  An Adaptive Dual-phase LLM Inference Acceleration System for Mult...](#153-iyIzaoDVrT) | N/A | 2/4 ✅ |
+| 154 | [Revolutionizing Reinforcement Learning Framework for Diffusion Large Language...](#154-KNAyc9DMe3) | N/A | 2/4 ✅ |
 
 ---
 
@@ -219,8 +262,29 @@
 
 ---
 
-### 5. LaTtE-Flow: Layerwise Timestep-Expert Flow-based Transformer
-<a id="5-lVpWNivXEU"></a>
+### 5. BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Training and Dataset
+<a id="5-9aI6XUDYLX"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `9aI6XUDYLX` |
+| **Number** | 14464 |
+| **Similarity** | **0.8135** |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **6**, **2**, **2** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=9aI6XUDYLX) |
+
+**Keywords**: `Unified Multimodal`
+
+**Abstract**:
+
+> Unifying image understanding and generation has gained growing attention in recent research on multimodal models. Although design choices for image understanding have been extensively studied, the optimal model architecture and training recipe for a unified framework with image generation remain underexplored. Motivated by the strong potential of autoregressive and diffusion models for high-quality generation and scalability, we conduct a comprehensive study of their use in unified multimodal settings, with emphasis on image representations, modeling objectives, and training strategies. Grounded in these investigations, we introduce a novel approach that employs a diffusion transformer to generate semantically rich CLIP image features, in contrast to conventional VAE-based representations. This design yields both higher training efficiency and improved generative quality. Furthermore, we demonstrate that a sequential pretraining strategy for unified models—first training on image understanding and subsequently on image generation—offers practical advantages by preserving image-understanding capability while developing strong image generation ability. Finally, we carefully curate a high-quality instruction-tuning dataset BLIP3o-60k for image generation by prompting GPT-4o with a diverse set of captions covering various scenes, objects, human gestures, and more. Building on our innovative model design, training recipe, and datasets, we develop BLIP3-o, a suite of state-of-the-art unified multimodal models. BLIP3-o achieves superior performance across most of the popular benchmarks spanning both image understanding and generation tasks. To facilitate future research, we fully open-source our models, including code, model weights, training scripts, and pretraining and instruction tuning datasets.
+
+---
+
+### 6. LaTtE-Flow: Layerwise Timestep-Expert Flow-based Transformer
+<a id="6-lVpWNivXEU"></a>
 
 | | |
 |---|---|
@@ -240,8 +304,8 @@
 
 ---
 
-### 6. Query-Kontext: An Unified Multimodal Model for Image Generation and Editing
-<a id="6-IRrQgf2GAl"></a>
+### 7. Query-Kontext: An Unified Multimodal Model for Image Generation and Editing
+<a id="7-IRrQgf2GAl"></a>
 
 | | |
 |---|---|
@@ -262,8 +326,8 @@ and realism. Finally, We introduce a low-level image encoder to improve image fi
 
 ---
 
-### 7. STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning
-<a id="7-LhmED2c0dP"></a>
+### 8. STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning
+<a id="8-LhmED2c0dP"></a>
 
 | | |
 |---|---|
@@ -283,8 +347,8 @@ and realism. Finally, We introduce a low-level image encoder to improve image fi
 
 ---
 
-### 8. Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model
-<a id="8-pG0WTde3pR"></a>
+### 9. Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model
+<a id="9-pG0WTde3pR"></a>
 
 | | |
 |---|---|
@@ -304,8 +368,8 @@ and realism. Finally, We introduce a low-level image encoder to improve image fi
 
 ---
 
-### 9. OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows
-<a id="9-je3ezjX4LD"></a>
+### 10. OneFlow: Concurrent Mixed-Modal and Interleaved Generation with Edit Flows
+<a id="10-je3ezjX4LD"></a>
 
 | | |
 |---|---|
@@ -325,8 +389,8 @@ and realism. Finally, We introduce a low-level image encoder to improve image fi
 
 ---
 
-### 10. Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision
-<a id="10-5nevWRoNjn"></a>
+### 11. Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision
+<a id="11-5nevWRoNjn"></a>
 
 | | |
 |---|---|
@@ -347,8 +411,8 @@ To mitigate the computational and training challenges inherent to multi-modal re
 
 ---
 
-### 11. Reconstruction Alignment Improves Unified Multimodal Models
-<a id="11-ppQWp8yrm7"></a>
+### 12. Reconstruction Alignment Improves Unified Multimodal Models
+<a id="12-ppQWp8yrm7"></a>
 
 | | |
 |---|---|
@@ -369,8 +433,8 @@ However, conventional training relies on image–text pairs (or sequences) whose
 
 ---
 
-### 12. InstructX: Towards Unified Visual Editing with MLLM Guidance
-<a id="12-NPcdp9OIf8"></a>
+### 13. InstructX: Towards Unified Visual Editing with MLLM Guidance
+<a id="13-NPcdp9OIf8"></a>
 
 | | |
 |---|---|
@@ -390,8 +454,8 @@ However, conventional training relies on image–text pairs (or sequences) whose
 
 ---
 
-### 13. Interleaving Reasoning for Better Text-to-Image Generation
-<a id="13-lLNNzBQPas"></a>
+### 14. Interleaving Reasoning for Better Text-to-Image Generation
+<a id="14-lLNNzBQPas"></a>
 
 | | |
 |---|---|
@@ -418,8 +482,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 14. Sparse Shortcuts: Facilitating Efficient Fusion in Multimodal Large Language Models
-<a id="14-p9Hc1o6By5"></a>
+### 15. Sparse Shortcuts: Facilitating Efficient Fusion in Multimodal Large Language Models
+<a id="15-p9Hc1o6By5"></a>
 
 | | |
 |---|---|
@@ -439,8 +503,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 15. Vision-Centric Activation and Coordination for Multimodal Large Language Models
-<a id="15-Qvx7G5Fsy0"></a>
+### 16. Vision-Centric Activation and Coordination for Multimodal Large Language Models
+<a id="16-Qvx7G5Fsy0"></a>
 
 | | |
 |---|---|
@@ -460,8 +524,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 16. GoT-R1: Unleashing Reasoning Capability of Autoregressive Visual Generation with Reinforcement Learning
-<a id="16-Z9FjSaBuYt"></a>
+### 17. GoT-R1: Unleashing Reasoning Capability of Autoregressive Visual Generation with Reinforcement Learning
+<a id="17-Z9FjSaBuYt"></a>
 
 | | |
 |---|---|
@@ -481,8 +545,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 17. VUGEN: Visual Understanding priors for GENeration
-<a id="17-tubF5vyrQ0"></a>
+### 18. VUGEN: Visual Understanding priors for GENeration
+<a id="18-tubF5vyrQ0"></a>
 
 | | |
 |---|---|
@@ -502,8 +566,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 18. ORION: Decoupling and Alignment for Unified Autoregressive Understanding and Generation
-<a id="18-PP7j0xvvUB"></a>
+### 19. ORION: Decoupling and Alignment for Unified Autoregressive Understanding and Generation
+<a id="19-PP7j0xvvUB"></a>
 
 | | |
 |---|---|
@@ -523,8 +587,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 19. Draw-In-Mind: Rebalancing Designer-Painter Roles in Unified Multimodal Models Benefits Image Editing
-<a id="19-FaJ7WwIstO"></a>
+### 20. Draw-In-Mind: Rebalancing Designer-Painter Roles in Unified Multimodal Models Benefits Image Editing
+<a id="20-FaJ7WwIstO"></a>
 
 | | |
 |---|---|
@@ -544,8 +608,8 @@ As an early exploration, our results demonstrate that interleaving reasoning is 
 
 ---
 
-### 20. MILR: Improving Multimodal Image Generation via Test-Time Latent Reasoning
-<a id="20-dw0pORtnKI"></a>
+### 21. MILR: Improving Multimodal Image Generation via Test-Time Latent Reasoning
+<a id="21-dw0pORtnKI"></a>
 
 | | |
 |---|---|
@@ -566,8 +630,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 21. Jodi: Unification of Visual Generation and Understanding via Joint Modeling
-<a id="21-Hd1Wciuyka"></a>
+### 22. Jodi: Unification of Visual Generation and Understanding via Joint Modeling
+<a id="22-Hd1Wciuyka"></a>
 
 | | |
 |---|---|
@@ -587,8 +651,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 22. Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Diffusion Diffusion Process
-<a id="22-UvQOcw2oCD"></a>
+### 23. Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Diffusion Diffusion Process
+<a id="23-UvQOcw2oCD"></a>
 
 | | |
 |---|---|
@@ -608,8 +672,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 23. Generative Universal Verifier as Multimodal Meta-Reasoner
-<a id="23-DM0Y0oL33T"></a>
+### 24. Generative Universal Verifier as Multimodal Meta-Reasoner
+<a id="24-DM0Y0oL33T"></a>
 
 | | |
 |---|---|
@@ -629,8 +693,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 24. Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs
-<a id="24-M5MfDi4gJO"></a>
+### 25. Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs
+<a id="25-M5MfDi4gJO"></a>
 
 | | |
 |---|---|
@@ -650,8 +714,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 25. MoDA: Modulation Adapter for Fine-Grained Visual Understanding in Instructional MLLMs
-<a id="25-gLPxpqYRqH"></a>
+### 26. MoDA: Modulation Adapter for Fine-Grained Visual Understanding in Instructional MLLMs
+<a id="26-gLPxpqYRqH"></a>
 
 | | |
 |---|---|
@@ -671,8 +735,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 26. Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in MLLMs
-<a id="26-xF0Dcmvsl0"></a>
+### 27. Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in MLLMs
+<a id="27-xF0Dcmvsl0"></a>
 
 | | |
 |---|---|
@@ -692,8 +756,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 27. VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration
-<a id="27-57IXIg6nZ0"></a>
+### 28. VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration
+<a id="28-57IXIg6nZ0"></a>
 
 | | |
 |---|---|
@@ -713,8 +777,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 28. Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States
-<a id="28-55oAbWpTcO"></a>
+### 29. Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States
+<a id="29-55oAbWpTcO"></a>
 
 | | |
 |---|---|
@@ -734,8 +798,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 29. VLSA: Enhancing Vision-Language Understanding via Perception and Cognition Alignment
-<a id="29-lU4LPHfvaF"></a>
+### 30. VLSA: Enhancing Vision-Language Understanding via Perception and Cognition Alignment
+<a id="30-lU4LPHfvaF"></a>
 
 | | |
 |---|---|
@@ -755,8 +819,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 30. LaVi: Efficient Large Vision-Language Models via Internal Feature Modulation
-<a id="30-uUtIyxeBUc"></a>
+### 31. LaVi: Efficient Large Vision-Language Models via Internal Feature Modulation
+<a id="31-uUtIyxeBUc"></a>
 
 | | |
 |---|---|
@@ -776,8 +840,8 @@ We instantiate MILR within the unified multimodal understanding and generation (
 
 ---
 
-### 31. Parallel Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation
-<a id="31-mkQAd11ovn"></a>
+### 32. Parallel Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation
+<a id="32-mkQAd11ovn"></a>
 
 | | |
 |---|---|
@@ -799,8 +863,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 ---
 
-### 32. Guided Star-Shaped Masked Diffusion
-<a id="32-wNAUAPfceN"></a>
+### 33. Guided Star-Shaped Masked Diffusion
+<a id="33-wNAUAPfceN"></a>
 
 | | |
 |---|---|
@@ -820,8 +884,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 ---
 
-### 33. Mitigating Visual Hallucinations via Semantic Curriculum Preference Optimization in MLLMs
-<a id="33-DztuuQCn13"></a>
+### 34. Mitigating Visual Hallucinations via Semantic Curriculum Preference Optimization in MLLMs
+<a id="34-DztuuQCn13"></a>
 
 | | |
 |---|---|
@@ -841,8 +905,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 ---
 
-### 34. EDITOR: Effective and Interpretable Prompt Inversion for Text-to-Image Diffusion Models
-<a id="34-LHwDWVN3IX"></a>
+### 35. EDITOR: Effective and Interpretable Prompt Inversion for Text-to-Image Diffusion Models
+<a id="35-LHwDWVN3IX"></a>
 
 | | |
 |---|---|
@@ -862,8 +926,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 ---
 
-### 35. Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual Reasoning
-<a id="35-EKxHftIpcB"></a>
+### 36. Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual Reasoning
+<a id="36-EKxHftIpcB"></a>
 
 | | |
 |---|---|
@@ -883,8 +947,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 ---
 
-### 36. ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation
-<a id="36-gu3DRaDWiI"></a>
+### 37. ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation
+<a id="37-gu3DRaDWiI"></a>
 
 | | |
 |---|---|
@@ -901,27 +965,6 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 **Abstract**:
 
 > Unified multimodal models (UMMs) have shown remarkable advances in jointly understanding and generating text and images. However, prevailing evaluations treat these abilities in isolation, such that tasks with multimodal inputs and outputs are scored primarily through unimodal reasoning: textual benchmarks emphasize language-based reasoning, while visual benchmarks emphasize reasoning outcomes manifested in the pixels. As such, existing benchmarks rarely require the use of one modality to guide, verify, or refine outputs in the other. They therefore fail to capture a central aspiration of unified multimodal models, namely to support seamless reasoning across modalities. We address this gap with **ROVER**, a human-annotated benchmark that explicitly targets reciprocal cross-modal reasoning, which contains over 1,200 tasks grounded in 2,048 images, spanning two complementary settings. **Verbally-augmented reasoning for visual generation** evaluates whether models can use structured verbal prompts and reasoning chains to guide faithful image synthesis. **Visually-augmented reasoning for verbal generation** evaluates whether models can generate intermediate visualizations that strengthen their own reasoning processes. Experiments on 17 state-of-the-art UMMs reveal two key findings: (i) cross-modal reasoning capabilities strongly correlate with visual generation performance, particularly for interleaved image–text generation; and (ii) current models remain severely limited in visual-augmented reasoning, showing relative strength in perception and physical modeling but weakness in logical tasks. These results highlight reciprocal cross-modal reasoning as a critical frontier for enabling true omnimodal generation. More information on **Anonymous Page**: https://anony0923.github.io
-
----
-
-### 37. BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Training and Dataset
-<a id="37-9aI6XUDYLX"></a>
-
-| | |
-|---|---|
-| **Paper ID** | `9aI6XUDYLX` |
-| **Number** | 14464 |
-| **Similarity** | **0.7394** |
-| **Reviews** | 2/4 positive |
-| **Ratings** | **6**, **6**, **2**, **2** |
-| **Primary Area** | generative models |
-| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=9aI6XUDYLX) |
-
-**Keywords**: `Unified Multimodal`
-
-**Abstract**:
-
-> Unifying image understanding and generation has gained growing attention in recent research on multimodal models. Although design choices for image understanding have been extensively studied, the optimal model architecture and training recipe for a unified framework with image generation remain underexplored. Motivated by the strong potential of autoregressive and diffusion models for high-quality generation and scalability, we conduct a comprehensive study of their use in unified multimodal settings, with emphasis on image representations, modeling objectives, and training strategies. Grounded in these investigations, we introduce a novel approach that employs a diffusion transformer to generate semantically rich CLIP image features, in contrast to conventional VAE-based representations. This design yields both higher training efficiency and improved generative quality. Furthermore, we demonstrate that a sequential pretraining strategy for unified models—first training on image understanding and subsequently on image generation—offers practical advantages by preserving image-understanding capability while developing strong image generation ability. Finally, we carefully curate a high-quality instruction-tuning dataset BLIP3o-60k for image generation by prompting GPT-4o with a diverse set of captions covering various scenes, objects, human gestures, and more. Building on our innovative model design, training recipe, and datasets, we develop BLIP3-o, a suite of state-of-the-art unified multimodal models. BLIP3-o achieves superior performance across most of the popular benchmarks spanning both image understanding and generation tasks. To facilitate future research, we fully open-source our models, including code, model weights, training scripts, and pretraining and instruction tuning datasets.
 
 ---
 
@@ -2549,41 +2592,973 @@ Our results highlight that imitating truth-grounded attention dynamics is a simp
 
 ---
 
+### 113. Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes
+<a id="113-VbvXjs5f72"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `VbvXjs5f72` |
+| **Number** | 16872 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 5/5 positive |
+| **Ratings** | **6**, **8**, **6**, **6**, **8** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=VbvXjs5f72) |
+
+**Keywords**: `diffusion language model`, `deletion-insertion process`, `denoising score entropy`
+
+**Abstract**:
+
+> While Masked Diffusion Language Models (MDLMs) relying on token masking and unmasking have shown promise in language modeling, their computational efficiency and generation flexibility remain constrained by the masking paradigm. In this paper, we propose Deletion-Insertion Diffusion language models (DID) that rigorously formulate token deletion and insertion as discrete diffusion processes, replacing the masking and unmasking processes in current MDLMs. DID improves training and inference efficiency by eliminating two major sources of computational overhead in MDLMs: the computations on non-informative 1) $\texttt{\<MASK\>}$ tokens inherent to its paradigm, and 2) $\texttt{\<PAD\>}$ tokens introduced in variable-length settings. Furthermore, DID offers greater flexibility by: 1) natively supporting variable-length sequences without requiring fixed-length padding, and 2) an intrinsic self-correction mechanism during generation due to insertion that dynamically adjusts token positions. To train DID, we design a score-based approach that assigns scores to token insertion operations and derive appropriate training objectives. The objectives involve subsequence counting problems, which we efficiently solve via a parallelized dynamic programming algorithm. Our experiments across fixed and variable-length settings demonstrate the advantage of DID over baselines of MDLMs and existing insertion-based LMs, in terms of modeling performance, sampling quality, and training/inference speed.
+
+---
+
+### 114. Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM
+<a id="114-SdnkB5pGbq"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `SdnkB5pGbq` |
+| **Number** | 11784 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 4/4 positive |
+| **Ratings** | **6**, **6**, **6**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=SdnkB5pGbq) |
+
+**Keywords**: `dLLMs`, `Inference Acceleration`
+
+**Abstract**:
+
+> Diffusion Large Language Models (dLLMs) offer a promising alternative to autoregressive models, excelling in text generation tasks due to their bidirectional attention mechanisms. However, their computational complexity, scaling as $\mathcal{O}(L^3)$ with sequence length $L$, poses significant challenges for long-sequence and real-time applications, primarily due to the lack of compatibility with key-value caching and the non-autoregressive nature of denoising steps. Existing acceleration methods rely on static caching or parallel decoding strategies, which fail to account for the dynamic behavior of token properties across layers and decoding steps. We propose \textbf{Dynamic-dLLM}, a training-free framework that enhances dLLM inference efficiency through two components: Dynamic Cache Updating (DCU), which adaptively allocates cache-update budgets based on layer-wise token dynamics, and Adaptive Parallel Decoding (APD), which dynamically calibrates decoding thresholds to balance generation quality and efficiency. Extensive experiments on models like LLaDA-8B-Instruct, LLaDA-1.5, and Dream-v0-7B-Instruct across benchmarks such as MMLU, GSM8K, and HumanEval demonstrate that Dynamic-dLLM significantly improves inference speed, attaining an average speedup of exceeding 3$\times$ while maintaining performance. Dynamic-dLLM outperforms state-of-the-art acceleration methods and provides a plug-and-play solution for efficient dLLM deployment without compromising performance. Code and models will be made publicly available.
+
+---
+
+### 115. Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing
+<a id="115-t5uLZSRjhF"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `t5uLZSRjhF` |
+| **Number** | 8520 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 4/4 positive |
+| **Ratings** | **6**, **6**, **6**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=t5uLZSRjhF) |
+
+**Keywords**: `Diffusion Large Language Models`, `Discrete Diffusion Models`, `Inference Acceleration`, `KV Cache`, `AR-Diffusion Hybrid`
+
+**Abstract**:
+
+> Diffusion Large Language Models (dLLMs) have emerged as a promising alternative to autoregressive (AR) LLMs for text generation, with the potential to decode multiple tokens in a single iteration. However, none of the existing open-source dLLMs have achieved superior inference speed over AR LLMs of similar size.  This paper breaks this barrier based on a simple and effective strategy named discrete diffusion forcing (D2F). D2F equips dLLMs with two key capabilities: (1) block-wise autoregressive generation to enable KV cache utilization; (2) prediction of following tokens without requiring completion of prior blocks for inter-block parallel decoding. In this way, the vanilla dLLMs are refurbished into an AR-diffusion hybrid paradigm for efficient inference. D2F can be implemented with an asymmetric distillation process based on pre-trained dLLMs to achieve rapid convergence.We further propose a pipelined parallel decoding algorithm, which enables a trade-off between efficiency and efficacy. Empirically, D2F dLLMs achieve more than $\mathbf{2.5\times}$ inference speed than LLaMA3 and Qwen2.5 on GSM8K. Compared to the vanilla dLLMs like LLaDA and Dream, the acceleration can be more than $\mathbf{50\times}$ while maintaining comparable output quality.
+
+---
+
+### 116. FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models
+<a id="116-ue1zFeD275"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `ue1zFeD275` |
+| **Number** | 1778 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 4/4 positive |
+| **Ratings** | **6**, **6**, **6**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=ue1zFeD275) |
+
+**Keywords**: `Diffusion language model`, `few step generation`, `flow matching`
+
+**Abstract**:
+
+> Autoregressive language models (ARMs) deliver strong likelihoods, but are inherently serial: they generate one token per forward pass, which limits throughput and inflates latency for long sequences. Diffusion Language Models (DLMs) parallelize across positions and thus appear promising for language generation, yet standard discrete diffusion typically needs hundreds to thousands of model evaluations to reach high quality, trading serial depth for iterative breadth. We introduce **FS-DFM**, Few-Step Discrete Flow-Matching. A discrete flow-matching model designed for speed without sacrificing quality. The core idea is simple: make the number of sampling steps an explicit parameter and train the model to be consistent across step budgets, so one big move lands where many small moves would. We pair this with a reliable update rule that moves probability in the right direction without overshooting, and with strong teacher guidance distilled from long-run trajectories. Together, these choices make few-step sampling stable, accurate, and easy to control. On language modeling benchmarks, FS-DFM with 8 sampling steps achieves perplexity parity with a 1\,024-step discrete-flow baseline for generating 1\,024 tokens using a similar-size model, delivering up to 128× faster sampling and corresponding latency/throughput gains.
+
+---
+
+### 117. Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model
+<a id="117-z9MlGsQbzR"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `z9MlGsQbzR` |
+| **Number** | 12648 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 4/4 positive |
+| **Ratings** | **6**, **6**, **6**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=z9MlGsQbzR) |
+
+**Keywords**: `diffusion caching`, `image generation`, `efficient deep learning`, `diffusion transformers`, `inference acceleration`
+
+**Abstract**:
+
+> Diffusion-based image generation models excel at producing high-quality synthetic content, but suffer from slow and computationally expensive inference. Prior work has attempted to mitigate this by caching and reusing features within diffusion transformers across inference steps. These methods, however, often rely on rigid heuristics that result in limited acceleration or poor generalization across architectures. We propose **E**volutionary **C**aching to **A**ccelerate **D**iffusion models (ECAD), a genetic algorithm that learns efficient, per-model, caching schedules forming a Pareto frontier, using only a small set of calibration prompts. ECAD requires no modifications to network parameters or reference images. It offers significant inference speedups, enables fine-grained control over the quality-latency trade-off, and adapts seamlessly to different diffusion models. Notably, ECAD's learned schedules can generalize effectively to resolutions and model variants not seen during calibration. We evaluate ECAD on PixArt-alpha, PixArt-Sigma, and FLUX-1.dev using multiple metrics (FID, CLIP, Image Reward) across diverse benchmarks (COCO, MJHQ-30k, PartiPrompts), demonstrating consistent improvements over previous approaches. On PixArt-alpha, ECAD identifies a schedule that outperforms the previous state-of-the-art method by 4.47 COCO FID while increasing inference speedup from 2.35x to 2.58x. Our results establish ECAD as a scalable and generalizable approach for accelerating diffusion inference.
+
+---
+
+### 118. Fast-dLLM v2: Efficient Block-Diffusion LLM
+<a id="118-1NZ3DHF9nT"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `1NZ3DHF9nT` |
+| **Number** | 2544 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **6**, **4**, **8** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=1NZ3DHF9nT) |
+
+**Keywords**: `Diffusion LLM`, `Efficient AI`
+
+**Abstract**:
+
+> Autoregressive (AR) large language models (LLMs) have achieved remarkable performance across a wide range of natural language tasks, yet their inherent sequential decoding limits inference efficiency. In this work, we propose Fast-dLLM v2, a carefully designed block diffusion language model (dLLM) that efficiently adapts pretrained AR models into dLLMs for parallel text generation—requiring only ∼1B tokens of fine-tuning. This represents a 500× reduction in training data compared to full-attention diffusion LLMs such as Dream (580B tokens), while preserving the original model’s performance. Our approach introduces a novel training recipe that combines a block diffusion mechanism with a complementary attention mask, enabling blockwise bidirectional context modeling without sacrificing AR training objectives. To further accelerate decoding, we design a hierarchical caching mechanism: a block-level cache that stores historical context representations across blocks, and a sub-block cache that enables efficient parallel generation within partially decoded blocks. Coupled with our parallel decoding pipeline, Fast-dLLM v2 achieves up to 2.5× speedup over standard AR decoding without compromising generation quality. Extensive experiments across diverse benchmarks demonstrate that Fast-dLLM v2 matches or surpasses AR baselines in accuracy, while delivering state-of-the-art efficiency among dLLMs—marking a significant step toward the practical deployment of fast and accurate LLMs. Code and model will be publicly released.
+
+---
+
+### 119. dParallel: Learnable Parallel Decoding for dLLMs
+<a id="119-hVOcstAURb"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `hVOcstAURb` |
+| **Number** | 2542 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **6**, **6**, **4** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=hVOcstAURb) |
+
+**Keywords**: `diffusion language model`, `parallel decoding`, `efficiency`
+
+**Abstract**:
+
+> Diffusion large language models (dLLMs) have recently drawn considerable attention within the research community as a promising alternative to autoregressive generation, offering parallel token prediction and lower inference latency. Yet, their parallel decoding potential remains largely underexplored, as existing open-source models still require nearly token-length decoding steps to ensure performance. To address this, we introduce dParallel, a simple and effective method that unlocks the inherent parallelism of dLLMs for fast sampling. We identify that the key bottleneck to parallel decoding arises from the sequential certainty convergence for masked tokens. Building on this insight, we introduce the core of our approach: certainty-forcing distillation, a novel training strategy that distills the model to follow its original sampling trajectories while enforcing it to achieve high certainty on masked tokens more rapidly and in parallel. Extensive experiments demonstrate that our method can dramatically reduce the number of decoding steps while maintaining performance. When applied to the LLaDA-8B-Instruct model, dParallel reduces decoding steps from 256 to 30 on GSM8K, achieving an 8.5× speedup without performance degradation. On the MBPP benchmark, it cuts decoding steps from 256 to 24, resulting in a 10.5× speedup while maintaining accuracy.
+
+---
+
+### 120. Learning to Parallel: Accelerating Diffusion Large Language Models via Adaptive Parallel Decoding
+<a id="120-bFJ8Sdr224"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `bFJ8Sdr224` |
+| **Number** | 18792 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **4**, **6**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=bFJ8Sdr224) |
+
+**Keywords**: `Diffusion LLM`
+
+**Abstract**:
+
+> Autoregressive decoding in large language models (LLMs) requires $\mathcal{O}(n)$ sequential steps for $n$ tokens, fundamentally limiting inference throughput. Recent diffusion-based LLMs (dLLMs) enable parallel token generation through iterative denoising. However, current parallel decoding strategies rely on fixed, input-agnostic heuristics (e.g., confidence thresholds), which fail to adapt to input-specific characteristics, resulting in suboptimal speed-quality trade-offs across diverse NLP tasks. In this work, we explore a more flexible and dynamic approach to parallel decoding. We propose **Learning to Parallel Decode (Learn2PD)**, a framework that trains a lightweight and adaptive filter model to predict, for each token position, whether the current prediction matches the final output. This learned filter approximates an oracle parallel decoding strategy that unmasks tokens only when correctly predicted. Importantly, the filter model is learned in a post-training manner, requiring only a small amount of computation to optimize it (minute-level GPU time). Additionally, we introduce **End-of-Text Prediction (EoTP)** to detect decoding completion at the end of sequence, avoiding redundant decoding of padding tokens. Experiments on the LLaDA benchmark demonstrate that our method achieves up to **22.58×** speedup without any performance drop, and up to **57.51×** when combined with KV-Cache.
+
+---
+
+### 121. Planned Diffusion
+<a id="121-wZN8debH4W"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `wZN8debH4W` |
+| **Number** | 16379 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **4**, **6**, **6**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=wZN8debH4W) |
+
+**Keywords**: `diffusion`, `LLM`, `parallel generation`, `fast inference`, `autoregressive`, `planning`, `hybrid model`
+
+**Abstract**:
+
+> A central challenge in large language model inference is the trade-off between generation speed and output quality. Autoregressive models produce high-quality text but generate tokens sequentially. Diffusion models can generate tokens in parallel but often need many iterations to match the same quality. We propose planned diffusion, a hybrid method that combines the strengths of both paradigms. Planned diffusion works in two stages: first, the model creates a short autoregressive outline that breaks the output into smaller, independent spans. Second, the model generates these spans simultaneously using diffusion. This approach expands the speed–quality Pareto frontier and provides a practical path to faster, high-quality text generation. On AlpacaEval, a suite of 805 instruction-following prompts, planned diffusion achieves Pareto-optimal trade-off between quality and latency, achieving 1.84x speedup over autoregressive generation with only a 6.8\% drop in win rate. Our sensitivity analysis confirms that the internal planning of our model is reliable and offers tunable control over the trade-off between generation speed and quality.
+
+---
+
+### 122. Diffusion Language Model Knows the Answer Before It Decodes
+<a id="122-g88nt4ieTG"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `g88nt4ieTG` |
+| **Number** | 2555 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **8**, **6**, **4**, **8** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=g88nt4ieTG) |
+
+**Keywords**: `diffusion language model`, `discrete`
+
+**Abstract**:
+
+> Diffusion language models (DLMs) have recently emerged as an alternative to autoregressive approaches, offering parallel sequence generation and flexible token orders. However, their inference remains slower than that of autoregressive models, primarily due to the cost of bidirectional attention and the large number of refinement steps required for high-quality outputs.
+In this work, we highlight and leverage an overlooked property of DLMs—\textbf{early answer convergence}: in many cases, the correct answer can be internally identified by half steps before the final decoding step, both under semi-autoregressive and random re-masking schedules. For example, on GSM8K and MMLU, up to 97\% and 99\% of instances, respectively, can be decoded correctly using only half of the refinement steps.
+Building on this observation, we introduce \textbf{Prophet}, a training-free fast decoding paradigm that enables \textbf{early commit decoding}. Specifically, Prophet dynamically decides whether to continue refinement or to go ``all-in'' (i.e., decode all remaining tokens in one step), using the confidence gap between the top-2 prediction candidates as the criterion. It integrates seamlessly into existing DLM implementations, incurs negligible overhead, and requires no additional training.
+Empirical evaluations of LLaDA-8B and Dream-7B across multiple tasks show that Prophet reduces the number of decoding steps by up to 3.4$\times$ while preserving high generation quality. These results recast DLM decoding as a problem of \emph{when to stop sampling}, and demonstrate that early decode convergence provides a simple yet powerful mechanism for accelerating DLM inference, complementary to existing speedup techniques. Our code is submitted.
+
+---
+
+### 123. ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing
+<a id="123-PhEHuo7oMm"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `PhEHuo7oMm` |
+| **Number** | 11253 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/5 positive |
+| **Ratings** | **6**, **6**, **4**, **6**, **2** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=PhEHuo7oMm) |
+
+**Keywords**: `Long context`, `Efficient decoding`, `KV cache compression`
+
+**Abstract**:
+
+> Large language models (LLMs) face growing challenges in efficient generative inference due to the increasing memory demands of Key-Value (KV) caches, especially for long sequences.
+Existing eviction methods typically retain KV pairs with high attention weights but overlook the impact of attention redistribution caused by token removal, as well as the spatial-temporal dynamics in KV selection.
+In this paper, we propose ReST-KV, a robust KV eviction method that combines layer-wise output **Re**construction and **S**patial-**T**emporal smoothing to provide a more comprehensive perspective for the KV cache eviction task. 
+Specifically, ReST-KV formulates KV cache eviction as an optimization problem that minimizes output discrepancies through efficient layer-wise reconstruction. By directly modeling how each token’s removal affects the model output, our method naturally captures attention redistribution effects, going beyond simplistic reliance on raw attention weights.
+To further enhance robustness, we design exponential moving average smoothing to handle temporal variations and an adaptive window-based mechanism to capture spatial patterns.
+Our method, ReST-KV, significantly advances performance on long-context benchmarks. It surpasses state-of-the-art baselines by 2.58\% on LongBench and 15.2\% on RULER. Additionally, ReST-KV consistently outperforms existing methods on Needle-in-a-Haystack and InfiniteBench, all while achieving a remarkable 10.61$\times$ reduction in decoding latency at 128k context length. The code is included in the supplementary material and is designed for easy reproduction.
+
+---
+
+### 124. LATTS: LAtent space Test Time Scaling for diffusion language models
+<a id="124-Q524K1mgCc"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `Q524K1mgCc` |
+| **Number** | 7519 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **6**, **6**, **2** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=Q524K1mgCc) |
+
+**Keywords**: `Diffusion Large Language Model`, `Test Time Scaling`, `Latent Reasoning`
+
+**Abstract**:
+
+> Test-time scaling (TTS) improves the performance of autoregressive (AR) large language models by adding computation at inference.
+While the prominent sequential TTS enhances accuracy by inducing models to generate longer chain-of-thought (CoT) reasoning, its computational overhead emerges as a drawback.
+Meanwhile, diffusion large language models (DLLMs) have emerged as a promising alternative that offers parallel decoding and self-correction capabilities.
+However, existing sequential TTS methods are incompatible with modern masked DLLMs.
+This incompatibility arises from two fundamental constraints:
+(1) DLLMs operate holistically on fixed-length sequences, preventing the dynamic token-level expansion required for CoT,
+and (2) DLLMs' number of refinement (i.e., denoising) steps is capped by the sequence length, precluding further quality improvements via additional computation.
+We introduce LATTS, a novel sequential TTS method for DLLMs that overcomes the above challenges by operating in the latent embedding space.
+LATTS reframes CoT reasoning from a spatial process of extending sequence length to a temporal process that uses additional computation to extend the iterative self-refinement steps over the entire sequence's latent representation.
+Our evaluation on the LLaDA-Instruct model shows that LATTS achieves notable improvements over SFT baselines on reasoning and code generation benchmarks
+with gains of +4.1\% on GSM8K, +4.8\% on MATH, +3.2\% on MBPP, and an average of +4.6\% on commonsense reasoning tasks with minimal additional inference computation.
+These results establish sequential TTS as a promising technique for optimizing DLLMs.
+
+---
+
+### 125. Improving Reasoning for Diffusion Language Models via Group Diffusion Policy Optimization
+<a id="125-JaqvespRBP"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `JaqvespRBP` |
+| **Number** | 21492 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **6**, **6**, **4** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=JaqvespRBP) |
+
+**Keywords**: `reinforcement learning`, `discrete diffusion`, `diffusion language models`
+
+**Abstract**:
+
+> Diffusion language models (DLMs) enable parallel, order-agnostic generation with iterative refinement, offering a flexible alternative to autoregressive large language models (LLMs). However, adapting reinforcement learning (RL) fine-tuning to DLMs remains an open challenge because of the intractable likelihood. Pioneering work such as diffu-GRPO estimated token-level likelihoods via one-step unmasking. While computationally efficient, this approach is severely biased. A more principled foundation lies in sequence-level likelihoods, where the evidence lower bound (ELBO) serves as a surrogate. Yet, despite this clean mathematical connection, ELBO-based methods have seen limited adoption due to the prohibitive cost of likelihood evaluation. In this work, we revisit ELBO estimation and disentangle its sources of variance. This decomposition motivates reducing variance through fast, deterministic integral approximations along a few pivotal dimensions. Building on this insight, we introduce **Group Diffusion Policy Optimization (GDPO)**, a new RL algorithm tailored for DLMs. GDPO leverages simple yet effective *Semi-deterministic Monte Carlo* schemes to mitigate the variance explosion of ELBO estimators under vanilla double Monte Carlo sampling, yielding a provably lower-variance estimator under tight evaluation budgets. Empirically, GDPO achieves consistent gains over pretrained checkpoints and outperforms diffu-GRPO, one of the state-of-the-art baselines, on the majority of math, reasoning, and coding benchmarks.
+
+---
+
+### 126. Fast Language Generation through Discrete Diffusion Divergence Instruct
+<a id="126-mtdyZsa47V"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `mtdyZsa47V` |
+| **Number** | 19443 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/3 positive |
+| **Ratings** | **8**, **6**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=mtdyZsa47V) |
+
+**Keywords**: `discrete diffusion models`, `masked diffusion models`, `distillation`, `integral KL divergence`, `large language models`, `generative modeling`
+
+**Abstract**:
+
+> The fast generation of language texts is the holy grail that people pursue in the AI era. In this work, we introduced **Di**screte **Di**ffusion Divergence **Instruct** (**DiDiInstruct**), a training-based method that leads to fast language generation models by initializing from a pre-trained (masked) discrete diffusion language model (dLLM). The resulting DiDi-Instruct model outperforms the dLLM counterparts and the GPT-2 baseline with 64$\times$ acceleration. In the theoretical part of the paper, we build the foundation of DiDi-Instruct in a framework of integral KL divergence minimization, with practical training algorithms. We also introduce techniques like grouped reward normalization, intermediate-state matching, and the reward-guided ancestral sampler (RGAS) that significantly improve the training stability, the model coverage, and the inference performances. On OpenWebText, DiDi-Instruct outperforms all accelerated language generation models as well as the GPT-2 baseline and the standard dLLMs, achieving sample perplexities ranging from 62.2 (8 NFEs) to 18.4 (128 NFEs). These performance gains are accomplished with a negligible entropy loss of about $1$\% and $20\times$ less additional training wall-clock time. We further validate the robustness and effectiveness of DiDi-Instruct through extensive ablation studies, model scaling, and the generation of discrete protein sequences. In conclusion, DiDi-Instruct is an efficient yet effective distillation method, enabling language generation in the blink of an eye. We will release our code and models along with the paper
+
+---
+
+### 127. FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference
+<a id="127-wXAn7orB1H"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `wXAn7orB1H` |
+| **Number** | 12033 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **6**, **2**, **8** |
+| **Primary Area** | infrastructure, software libraries, hardware, systems, etc. |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=wXAn7orB1H) |
+
+**Keywords**: `LLM inference`, `KV cache`
+
+**Abstract**:
+
+> Large language models (LLMs) have been widely deployed with rapidly expanding context windows to support increasingly demanding applications.
+However, long contexts pose significant deployment challenges, primarily due to the KV cache whose size grows proportionally with context length.
+While KV cache compression methods are proposed to address this issue, KV dropping methods incur considerable accuracy loss, and KV retrieval methods suffer from significant efficiency bottlenecks.
+We propose FreeKV, an algorithm-system co-optimization framework to enhance KV retrieval efficiency while preserving accuracy.
+On the algorithm side, FreeKV introduces speculative retrieval to shift the KV selection and recall processes out of the critical path, combined with fine-grained correction to ensure accuracy.
+On the system side, FreeKV employs hybrid KV layouts across CPU and GPU memory to eliminate fragmented data transfers, and leverages double-buffered streamed recall to further improve efficiency, enabling effective overlap with computation, full latency hiding, and practical speedups from speculative recall.
+Experiments demonstrate that FreeKV achieves near-lossless accuracy across various scenarios and models, delivering up to 13$\times$ speedup compared to SOTA KV retrieval methods.
+
+---
+
+### 128. Soft-Masked Diffusion Language Models
+<a id="128-Gba02UMvrG"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `Gba02UMvrG` |
+| **Number** | 18632 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/4 positive |
+| **Ratings** | **6**, **4**, **8**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=Gba02UMvrG) |
+
+**Keywords**: `Masked diffusion language models`, `continuous feedback`, `code generation`
+
+**Abstract**:
+
+> Diffusion models have demonstrated strong potential in language modeling, offering various advantages over traditional autoregressive approaches. 
+Their ability to generate and revise entire responses in parallel enables faster generation and built-in self-correction mechanisms.
+Most modern diffusion-based language models employ masked diffusion, where decoding involves iteratively processing masked tokens based on a binary decision: either retaining the mask or replacing it with the predicted token. 
+However, this binary choice discards valuable predictive information when the mask is retained.
+To address this limitation, we introduce \textit{soft-masking (SM)}, a novel method that dynamically blends the embedding of the mask token with the embeddings of the top-$k$ predicted tokens from the previous decoding step, for each retained mask.
+This provides the model with a more informative prior, preserving context from earlier computations and allowing partial information about masked tokens to propagate beyond a single step. 
+We propose a training methodology that adapts a pretrained masked diffusion language model to incorporate SM.
+We demonstrate that continuing pretraining a 169M parameter model with SM leads to improved perplexity and MAUVE scores.
+Furthermore, we finetune two state-of-the-art diffusion models, Dream-7B and Dream-Coder-7B, with SM.
+SM consistently improves performance across multiple coding benchmarks, particularly in high-throughput settings.
+
+---
+
+### 129. LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding
+<a id="129-YWCHLdNGVU"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `YWCHLdNGVU` |
+| **Number** | 18487 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 3/5 positive |
+| **Ratings** | **4**, **6**, **6**, **4**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=YWCHLdNGVU) |
+
+**Keywords**: `Large Language Models`, `Long-Context Inference`, `Sparse Attention`, `Hybrid-Head Attention`
+
+**Abstract**:
+
+> The proliferation of long-context large language models (LLMs) exposes a key bottleneck: the rapidly expanding key-value cache during decoding, which imposes heavy memory and latency costs. While recent approaches attempt to alleviate this by sharing a single set of crucial tokens across layers, such coarse-grained sharing undermines model performance by neglecting the functional diversity of attention heads. To address this, we propose LycheeDecode, an efficient decoding method centered on a fine-grained hybrid-head attention mechanism that employs a hardware-efficient top-$k$ selection strategy. Specifically, the novel HardKuma-based mechanism partitions attention heads into a small subset of retrieval heads that dynamically identify crucial tokens and a majority of sparse heads that reuse them for efficient computation. Through extensive experiments on leading models like Llama3 and Qwen3 across diverse benchmarks for long-context understanding (e.g., LongBench, RULER) and complex reasoning (e.g., AIME24, OlympiadBench), we demonstrate that LycheeDecode achieves generative quality comparable to, and at times surpassing even the full-attention baseline. Crucially, this is accomplished with up to a 2.7x speedup at a 128K context length. By preserving the functional diversity of attention heads, our fine-grained strategy overcomes the performance bottlenecks of existing methods, providing a powerful and validated pathway to both efficient and high-quality long-context LLM inference. The implementation code, kernels, and models will be publicly available.
+
+---
+
+### 130. ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping
+<a id="130-O2WvMkJbws"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `O2WvMkJbws` |
+| **Number** | 5960 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **8**, **2**, **6**, **2** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=O2WvMkJbws) |
+
+**Keywords**: `Diffusion Large Language Model`, `Inference Acceleration`, `KV Caching`
+
+**Abstract**:
+
+> Diffusion large language models (dLLMs) are emerging as a promising alternative to autoregressive models (ARMs) due to their ability to capture bidirectional context and the potential for parallel generation. Despite the advantages, dLLM generation remains time-consuming, as it processes the full context for inference at each iteration. In this work, we analyze the generation characteristics of dLLMs and observe that intermediate states (e.g., key, value, and hidden states) change only subtly across iterations. Leveraging this insight, we propose ES-dLLM, a training-free inference acceleration framework for dLLM that reduces computation by skipping tokens with low importance scores in earlier layers of the model. Importance is estimated based on intermediate tensor variation and confidence scores from previous iterations. Experiments on LLaDA-8B and Dream-7B show that ES-dLLM achieves throughput of up to 226.57 and 308.51 tokens per second (TPS) on an NVIDIA H200 GPU, delivering 5.6$\times$ to 16.8$\times$ speedup over the original implementation and up to 1.85$\times$ over the state-of-the-art caching method, while preserving generation quality.
+
+---
+
+### 131. Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles
+<a id="131-Uh17FiwF4q"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `Uh17FiwF4q` |
+| **Number** | 4374 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **4**, **4**, **8** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=Uh17FiwF4q) |
+
+**Keywords**: `Large Language Models`, `Diffusion Models`, `Model Acceleration`, `Adaptive Sampling`
+
+**Abstract**:
+
+> Diffusion-based language models (dLLMs) have emerged as a promising alternative to traditional autoregressive LLMs by enabling parallel token generation and significantly reducing inference latency. However, existing sampling strategies for dLLMs, such as confidence-based or semi-autoregressive decoding, often suffer from static behavior, leading to suboptimal efficiency and limited flexibility. In this paper, we propose SlowFast Sampling, a novel dynamic sampling strategy that adaptively alternates between exploratory and accelerated decoding stages. Our method is guided by three golden principles: certainty principle, convergence principle, and positional principle, which govern when and where tokens can be confidently and efficiently decoded. We further integrate our strategy with dLLM-Cache to reduce redundant computation. Extensive experiments across benchmarks and models show that SlowFast Sampling achieves up to 15.63× speedup on LLaDA with minimal accuracy drop, and up to 34.22× when combined with caching. Notably, our approach outperforms strong autoregressive baselines like LLaMA3 8B in throughput, demonstrating that well-designed sampling can unlock the full potential of dLLMs for fast and high-quality generation.
+
+---
+
+### 132. Attention Is All You Need for KV Cache in Diffusion LLMs
+<a id="132-zkUbhdAiFJ"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `zkUbhdAiFJ` |
+| **Number** | 7898 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **6**, **6**, **4** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=zkUbhdAiFJ) |
+
+**Keywords**: `Diffusion LLMs`, `Attention-aware KV Cache Update`, `Layer-aware KV Cache Update`
+
+**Abstract**:
+
+> This work studies how to adaptively recompute key–value (KV) caches for diffusion large language models (DLMs) to maximize prediction accuracy while minimizing decoding latency. Prior methods' decoders recompute QKV for all tokens at every denoising step and layer, despite KV states changing little across most steps, especially in shallow layers, leading to substantial redundancy. We make three observations: (1) distant MASK tokens primarily act as a length-bias and can be cached block-wise beyond the active prediction window; (2) KV dynamics increase with depth, suggesting that selective refresh starting from deeper layers is sufficient; and (3) the most-attended token exhibits the smallest KV drift, providing a conservative lower bound on cache change for other tokens. Building on these, we propose Elastic-Cache, a training-free, architecture-agnostic strategy that jointly decides ${when}$ to refresh (via an attention-aware drift test on the most-attended token) and ${where}$ to refresh (via a depth-aware schedule that recomputes from a chosen layer onward while reusing shallow-layer caches and off-window MASK caches). Unlike fixed-period schemes, Elastic-Cache performs adaptive, layer-aware cache updates for diffusion LLMs, reducing redundant computation and accelerating decoding with negligible loss in generation quality. Experiments on LLaDA-Instruct, LLaDA-1.5, and LLaDA-V across mathematical reasoning and code generation tasks demonstrate consistent speedups: $8.7\times$ on GSM8K (256 tokens), $45.1\times$ on longer sequences, and $4.8\times$ on HumanEval, while consistently maintaining higher accuracy than the baseline. Our method achieves significantly higher throughput ($6.8\times$ on GSM8K) than existing confidence-based approaches while preserving generation quality, enabling practical deployment of diffusion LLMs.
+
+---
+
+### 133. d$^2$Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching
+<a id="133-SjInfpK5RM"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `SjInfpK5RM` |
+| **Number** | 3604 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **6**, **4**, **2** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=SjInfpK5RM) |
+
+**Keywords**: `Diffusion-based large language models`, `Key-value caching`, `Inference acceleration`
+
+**Abstract**:
+
+> Diffusion-based large language models (dLLMs), despite their promising performance, still suffer from inferior inference efficiency. This is because dLLMs rely on bidirectional attention and cannot directly benefit from the standard key-value (KV) cache as autoregressive models (ARMs) do. To tackle this issue, we introduce \textit{Dual aDaptive Cache} (d$^2$Cache), which is a training-free approximate KV cache framework for accelerating dLLM inference. d$^2$Cache features a two-stage fine-grained selection strategy to identify tokens and adaptively update their KV states at each decoding step, while caching the KV states of the remaining tokens for reuse. Furthermore, d$^2$Cache naturally offers a more reliable decoding alternative, which can enable quasi left-to-right generation and mitigate premature overconfidence in tokens at the end of the sequence. Extensive experimental results on two representative dLLMs (\ie, LLaDA and Dream) demonstrate that d$^2$Cache not only achieves substantial inference speedups, but also yields consistent improvements in generation quality. The anonymous evaluation codes are available at \url{https://anonymous.4open.science/r/d2Cache-5538}.
+
+---
+
+### 134. DPad: Efficient Diffusion Language Models with Suffix Dropout
+<a id="134-0yOsSMU1eY"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `0yOsSMU1eY` |
+| **Number** | 20859 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **4**, **4**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=0yOsSMU1eY) |
+
+**Keywords**: `Diffusion-based Large Language Models`, `Model Optimization and Efficiency`, `Token Pruning`, `Model Explainability`
+
+**Abstract**:
+
+> Diffusion-based Large Language Models (dLLMs) parallelize text generation by framing decoding as a denoising process, but suffer from high computational overhead since they predict all future suffix tokens at each step while retaining only a small fraction.  We propose $\textbf{Diffusion Scratchpad} (\textbf{\textit{DPad}})$, a training-free method that restricts attention to a structured subset of suffix tokens, preserving fidelity while eliminating redundancy.  $\textit{DPad}$ integrates two strategies: (i) a $\textit{sliding window}$, which maintains a fixed-length suffix window, and (ii) $\textit{distance-decay dropout}$, which deterministically removes distant suffix tokens before attention computation.  This concise design is compatible with existing optimizations such as parallel decoding and prefix caching, and lends itself to a lightweight implementation.  Comprehensive evaluations across multiple benchmarks on $\texttt{LLaDA}$ and $\texttt{Dream}$ models demonstrate that $\textit{DPad}$ delivers up to $\mathbf{61.4\times}$ speedup over vanilla dLLMs while maintaining comparable accuracy, highlighting its potential for efficient and scalable long-sequence inference.
+
+---
+
+### 135. Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed
+<a id="135-kIbFgoCq86"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `kIbFgoCq86` |
+| **Number** | 7978 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **8**, **2**, **6**, **4** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=kIbFgoCq86) |
+
+**Keywords**: `Diffusion Language Models`
+
+**Abstract**:
+
+> The token-by-token decoding nature of autoregressive (AR) language models limits their generation throughput, especially in common memory-constrained scenarios. To address this, diffusion language models (dLMs) have emerged as a promising paradigm to enable parallel, non-autoregressive generation for higher throughput. However, existing dLMs have either failed to deliver faster speeds than AR models or have been restricted to small model scales due to high training costs, resulting in limited capability. To this end, we build on pretrained AR models and develop a training framework to convert them into dLMs that excel in speed. First, we introduce a continuous pretraining scheme with a block-wise attention pattern that remains causal across blocks while enabling bidirectional modeling within each block, which we find to better preserve pretrained models' abilities than the fully bidirectional modeling used in prior work such as Dream. Second, to mitigate the training–test gap in mask token distributions, we propose a position-dependent token masking strategy that assigns higher masking probabilities to later tokens. Leveraging this framework, we conduct extensive studies of dLMs’ attention patterns, training dynamics, and other design choices, providing actionable insights into scalable AR-to-dLM conversion. We also deliver the Efficient-DLM model family, which outperforms state-of-the-art AR models and dLMs with better accuracy–throughput trade-offs, e.g., Efficient-DLM 4B achieves +1.65% higher accuracy with 4.77x throughput compared to Dream 7B, and +7.56% accuracy with 1.87x throughput compared to Qwen3 1.7B.
+
+---
+
+### 136. SparseD: Sparse Attention for Diffusion Language Models
+<a id="136-dwbrZtYP04"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `dwbrZtYP04` |
+| **Number** | 2226 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **6**, **4**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=dwbrZtYP04) |
+
+**Keywords**: `Diffusion Language Models`, `Sparse Attention`
+
+**Abstract**:
+
+> While diffusion language models (DLMs) offer a promising alternative to autoregressive models (ARs), existing open-source DLMs suffer from high inference latency. This bottleneck is mainly due to the attention’s quadratic complexity with respect to context length in computing all query–key pairs. Intuitively, to reduce this complexity, restricting computation to sparse attention patterns that retain only the most important ones offers an effective solution. This type of method is widely used in ARs, where the attention mechanism exhibits clear and fixed sparse patterns. In DLMs, our analysis also reveals the presence of sparse patterns and further highlights three unique observations: (1) attention patterns vary across heads, (2) attention patterns in each head remain highly similar across denoising steps, and (3) early denoising steps are critical for generation. These unique findings render well-studied fixed sparse attention methods in ARs largely incompatible with DLMs, as their fixed patterns fail to capture head-specific patterns in DLMs, and sparse attention applied in the early steps can lead to degradation in generation. To address these challenges, we propose **SparseD**, a novel sparse attention method for DLMs. 
+Leveraging the observations in DLMs, SparseD only pre-computes and selects the most important query–key pairs once as head-specific sparse patterns for reusing across denoising steps. This manner can handle head-specific patterns without incurring the high latency associated with recomputing sparse patterns at each denoising step. Meanwhile, SparseD skips sparse attention and uses full attention in the early steps to preserve generation quality. Together, these establish SparseD as a practical and efficient solution for deploying DLMs in long-context applications. Experimental results demonstrate that SparseD achieves lossless acceleration, delivering up to $1.50\times$ speedup over FlashAttention at a 64k context length with 1,024 denoising steps. Anonymous code is available at https://anonymous.4open.science/r/SparseD-8C76/.
+
+---
+
+### 137. Semantic-Aware Diffusion LLM Inference With Adaptive Block Size
+<a id="137-0Cv9PwL7cI"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `0Cv9PwL7cI` |
+| **Number** | 272 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **4**, **4**, **8** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=0Cv9PwL7cI) |
+
+**Keywords**: `Diffusion Large Language Models`, `Non-Autoregressive Decoding`
+
+**Abstract**:
+
+> Diffusion-based large language models (dLLMs) are gaining attention for their inherent capacity for parallel decoding, offering a compelling alternative to autoregressive LLMs. Among various decoding strategies, blockwise semi-autoregressive (semi-AR) approaches are widely adopted due to their natural support for KV caching and their favorable accuracy–speed trade-off. However, this paper identifies two fundamental limitations in the conventional semi-AR decoding approach that applies a fixed block size: i) late decoding overhead, where the unmasking of high-confidence tokens outside the current block is unnecessarily delayed, and ii) premature decoding error, where low-confidence tokens inside the current block are committed too early, leading to incorrect tokens. This paper presents the first systematic investigation challenging the fixed block size assumption in semi-AR decoding. Through a statistical analysis of confidence dynamics during the denoising process, we identify a volatility band (VB) region during dLLM decoding, which encodes local semantic structure and can be used to guide adaptive block sizing. Leveraging these insights, we introduce AdaBlock-dLLM, a training-free, plug-and-play scheduler that adaptively aligns block boundaries with semantic steps by adjusting block size during runtime. Extensive experiments across diverse benchmarks show that AdaBlock-dLLM achieves up to 5.3% accuracy improvement under the same throughput budget. Beyond inference-time optimization, we hope our semantics-aware adaptive scheduling approach and confidence-based analysis will inspire future training strategies for dLLMs.
+
+---
+
+### 138. Diffusion Language Models are Provably Optimal Parallel Samplers
+<a id="138-5bkAbueJwM"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `5bkAbueJwM` |
+| **Number** | 23946 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **8**, **4**, **6** |
+| **Primary Area** | learning theory |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=5bkAbueJwM) |
+
+**Keywords**: `Theory`, `Diffusion Language Model`, `Large Language Model`
+
+**Abstract**:
+
+> Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive models for faster inference via parallel token generation. We provide a rigorous foundation for this advantage by formalizing a model of parallel sampling and showing that DLMs augmented with polynomial-length chain-of-thought (CoT) can simulate any parallel sampling algorithm using an optimal number of sequential steps. 
+Consequently, whenever a target distribution 
+can be generated using a small number of sequential steps, a DLM can be used to generate the distribution using the same number of optimal sequential steps.
+However, without the ability to modify previously revealed tokens, DLMs with CoT can still incur large intermediate footprints. We prove that enabling remasking (converting unmasked tokens to masks or revision (converting unmasked tokens to other unmasked tokens) together with CoT further allows DLMs to simulate any parallel sampling algorithm with optimal space complexity.
+We further justify the advantage of revision by establishing a strict expressivity gap: DLMs with revision or remasking are strictly more powerful than those without.
+Our results not only provide a theoretical justification for the promise of DLMs as the most efficient sampler, but also 
+advocate for why revisions should be enabled in DLMs.
+
+---
+
+### 139. Esoteric Language Models
+<a id="139-XepOJx5ng4"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `XepOJx5ng4` |
+| **Number** | 14645 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **6**, **4**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=XepOJx5ng4) |
+
+**Keywords**: `Diffusion Language Models`, `discrete diffusion`
+
+**Abstract**:
+
+> Diffusion-based language models offer a compelling alternative to autoregressive (AR) models by enabling parallel and controllable generation. Among this family of models, Masked Diffusion Models (MDMs) achieve the strongest performance but still underperform AR models in perplexity and lack key inference-time efficiency features—most notably, KV caching. In this work, we introduce Eso-LMs, a new family of models that fuses AR and MDM paradigms, enabling smooth interpolation between their perplexities while overcoming their respective limitations. Crucially, we introduce KV caching for MDMs while preserving parallel generation, significantly improving inference efficiency. Combined with an optimized sampling schedule, our method achieves a new state of the art on the speed-quality Pareto frontier for unconditional generation. On long contexts, our method achieves 14−65× faster inference than standard MDMs and 3−4× faster inference than prior semi-autoregressive approaches.
+
+---
+
+### 140. DLM-One: Diffusion Language Models for One-Step Sequence Generation
+<a id="140-4g3dTrLnoF"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `4g3dTrLnoF` |
+| **Number** | 16061 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **2**, **6**, **4**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=4g3dTrLnoF) |
+
+**Keywords**: `Generative Modeling`, `Score Distillation`, `Non-autoregressive`
+
+**Abstract**:
+
+> This paper introduces *DLM-One*, a score-distillation-based framework for one-step sequence generation with continuous diffusion language models (DLMs). DLM-One eliminates the need for iterative refinement by aligning the scores of a student model’s outputs in the continuous token embedding space with the score function of a pretrained teacher DLM. We investigate whether DLM-One can achieve substantial gains in sampling efficiency for language modeling. Through comprehensive experiments on DiffuSeq—a representative continuous DLM—we show that DLM-One achieves up to $\mathord{\sim}500\times$ speedup in inference time while maintaining competitive performance on benchmark text generation tasks used to evaluate the teacher models. We further analyze the method’s empirical behavior across multiple datasets, providing initial insights into its generality and practical applicability. Our findings position one-step diffusion as a promising direction for efficient, high-quality language generation and broader adoption of continuous diffusion models operating in embedding space for natural language processing.
+
+---
+
+### 141. Parallel Prompting: Fast LLM Inference for Shared-Context, Short-to-Moderate Output
+<a id="141-T5KBO4IeM2"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `T5KBO4IeM2` |
+| **Number** | 22390 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **6**, **2**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=T5KBO4IeM2) |
+
+**Keywords**: `Attention`, `GPUs`, `Inference`, `parallelization`, `large language models`
+
+**Abstract**:
+
+> We introduce Parallel Prompting, a novel method for efficiently decoding multiple queries that share a common prefix in large language models (LLMs). This scenario occurs naturally in tasks such as document question answering, few-shot learning, and chatbot systems, where many prompts have substantial overlap. Our approach overcomes shortcomings of prior methods, which either leads to the degraded output quality or inefficient cache management. Crucially, we identify that maximizing inference throughput requires a careful balance between attention parallelism and batch size. The theoretical maximum throughput lies at a point determined by the hardware and model specifics, and cannot be achieved by solely increasing batch size or attention parallelism. In contrast to related methods that forbid hybrid batching or require pre-allocated memory for the entire generation, our approach supports flexible batching across multiple sharing groups and enables dynamic, on-demand memory usage. By decoding all queries in parallel with efficient matrix-matrix operations, our method significantly improves throughput and memory utilization without compromising result quality. Experimental results demonstrate that our method can improve end-to-end Llama3-8B latency by up to 4× against competitive baselines on popular datasets, without compromising output quality or accuracy.
+
+---
+
+### 142. SpecTr-GBV: Multi-Draft Block Verification Accelerating Speculative Decoding
+<a id="142-5FAUpLjndj"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `5FAUpLjndj` |
+| **Number** | 10164 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **8**, **6**, **2**, **2** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=5FAUpLjndj) |
+
+**Keywords**: `Speculative Decoding`, `Multi-Draft`, `Block Verification`, `Inference Efficiency`
+
+**Abstract**:
+
+> Autoregressive language models achieve state-of-the-art performance across a wide range of natural language processing tasks, but suffer from high inference latency due to their sequential decoding nature. Speculative decoding (SD) mitigates this by employing a lightweight draft model to propose candidate tokens, which are selectively verified by a larger target model. While existing methods either adopt multi-draft strategies to increase acceptance rates or block verification techniques to jointly verify multiple tokens, they remain limited by treating these improvements in isolation. In this work, we propose SpecTr-GBV, a novel SD method that unifies multi-draft and greedy block verification (GBV) into a single framework. By formulating the verification step as an optimal transport problem over draft and target token blocks, SpecTr-GBV improves both theoretical efficiency and empirical performance. We theoretically prove that SpecTr-GBV achieves the optimal expected number of accepted tokens for any fixed number of draft sequences, and this bound improves as the number of drafts increases. Empirically, we evaluate SpecTr-GBV across five datasets and four baselines. Our method achieves superior speedup and significantly higher block efficiency while preserving output quality. In addition, we perform comprehensive ablation studies to evaluate the impact of various components in the model.
+
+---
+
+### 143. EDIT: Early Diffusion Inference Termination for dLLMs Based on Dynamics of Training Gradients
+<a id="143-dQU7OKCagD"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `dQU7OKCagD` |
+| **Number** | 3184 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **6**, **4**, **2** |
+| **Primary Area** | other topics in machine learning (i.e., none of the above) |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=dQU7OKCagD) |
+
+**Keywords**: `diffusion language models`, `early termination`, `adaptive inference`, `training metadata`, `parameter importance through AdamW trajectory`, `LoRA`, `reasoning benchmarks`
+
+**Abstract**:
+
+> Diffusion-based large language models (dLLMs) generate tokens through iterative denoising, but answers often stabilize before all denoising steps are completed.
+We introduce EDIT (Early Diffusion Inference Termination), an inference-time method that adaptively stops the denoising process once reasoning stability relative to training behavior is detected.
+EDIT is built on training-gradient dynamics, typically otherwise discarded after training, where, during fine-tuning, AdamW-aggregated LoRA updates encode parameter importance signals.
+We retain this information as compact reasoning maps.
+During inference, EDIT measures alignment between token activations and these maps, detecting convergence when KL divergence across consecutive steps on unmasked (visible) tokens falls below a threshold. 
+On reasoning benchmarks, EDIT reduces diffusion steps by 11.8–68.3\% while preserving or improving accuracy in most cases, with negligible storage overhead ($\sim$0.02\%, about 1.5–2 MB for all QKV modules in a 32-block, 8 GByte model).
+These results establish a principled mechanism for transforming knowledge about training-gradient dynamics into practical test-time benefits such as reducing reasoning time.
+
+---
+
+### 144. DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models
+<a id="144-UmdmJRGb9u"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `UmdmJRGb9u` |
+| **Number** | 8515 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **6**, **2**, **2** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=UmdmJRGb9u) |
+
+**Keywords**: `Quantization`, `Diffusion-based large language model`
+
+**Abstract**:
+
+> Diffusion-based large language models (DLLMs) have shown promise for non-autoregressive text generation, but their deployment is constrained by large model sizes and heavy computational costs. Post-training quantization (PTQ), a widely used method for compressing and accelerating Large Language Models (LLMs), suffers from severe accuracy degradation and reduced generalization performance when directly applied to DLLMs (e.g., AWQ suffers a 16\% accuracy drop on LLADA under W4A4). This paper explores how the unique mechanisms of Dynamic Language Models (DLLMs) conflict with quantization, identifying three core issues: 1) During the iterative generation process of DLLMs, dynamic masking ratios are inherently involved, leading to notable differences in token distributions across decoding steps. Unfortunately, these distinct distributions are not sufficiently captured by current PTQ calibration approaches; 2) Quantization errors propogate and accumalte progressively during iterations in DLLMs, leading to a gradual decline in the performance of quantized models as decoding steps advance; 3) The stability of unmasked tokens, combined with the probabilistic nature of masked tokens, gives rise to an overall feature distribution that is uncoordinated and unsuitable for PTQ. To address these issues, we propose DLLMQuant, a PTQ framework tailored for DLLMs, which incorporates three novel techniques: 1) Temporal-Mask Adaptive Sampling (TMAS), a calibration method that accounts for both time and mask factors, with the capacity to capture distributions across timesteps. 2) Interaction-Aware Activation Quantization (IA-AQ), which which utilizes bidirectional attention scores to identify important tokens, and prioritizes these tokens when minimizing quantization error. 3) Certainty-Guided Quantization (CGQ) incorporates mask status and token scores as core weighting criteria for error compensation, enabling PTQ to better align with the unique weight distribution of DLLMs. Experiments show that DLLMQuant achieves significant performance gains (e.g., over 10-point accuracy improvement on GSM8K for LLADA under 4-bit quantization) while enhancing efficiency.
+
+---
+
+### 145. Inference-Time Scaling of Diffusion Language Models with Particle Gibbs Sampling
+<a id="145-je6FN2TuWf"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `je6FN2TuWf` |
+| **Number** | 14085 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/3 positive |
+| **Ratings** | **2**, **6**, **6** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=je6FN2TuWf) |
+
+**Keywords**: `discrete diffusion models; inference time scaling`
+
+**Abstract**:
+
+> Discrete diffusion models have recently emerged as strong alternatives to autoregressive language models, matching their performance through large-scale training. However, inference-time control remains relatively underexplored. In this work, we study how to steer generation toward desired rewards without retraining the models. Prior works typically focus on resampling or filtering within a single denoising trajectory, optimizing rewards step-by-step without trajectory-level refinement. We introduce particle Gibbs sampling for diffusion language models (PG-DLM), a novel inference-time sampling algorithm that performs trajectory-level refinement, which can preserve generation perplexity under reward optimization. PG-DLM constructs a Markov chain over full denoising trajectories and applies a conditional Sequential Monte Carlo kernel to resample them. Within this framework, we further analyze trade-offs across four key axes for inference-time scaling under fixed compute budgets: particle Gibbs iterations, sample count, denoising steps, and reward estimation cost. Analysis shows that scaling particle Gibbs iterations achieves the best reward–perplexity trade-off. Empirically, PG-DLM consistently outperforms prior methods on both MDLM and LLaDA-8B as base models across a wide range of compute budgets for reward-guided tasks, including toxicity and sentiment control as well as linguistic acceptability.
+
+---
+
+### 146. Draft-based Approximate Inference for LLMs
+<a id="146-0vbYakkECY"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `0vbYakkECY` |
+| **Number** | 4243 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **8**, **4**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=0vbYakkECY) |
+
+**Keywords**: `long-context`, `sparse attention`, `KV cache eviction`, `prompt compression`
+
+**Abstract**:
+
+> Optimizing inference for long-context large language models (LLMs) is increasingly important due to the quadratic compute and linear memory costs of Transformers. Existing approximate inference methods, including key-value (KV) cache dropping, sparse attention, and prompt compression, typically rely on coarse predictions of token or KV pair importance. We unify and extend recent work by introducing a framework for approximate LLM inference that leverages small draft models to more accurately predict token and KV pair importance. We provide novel theoretical and empirical analyses justifying lookahead-based importance estimation techniques. Within this framework, we present two new instantiations: (i) **SpecKV**, the first method to use lookahead with a small draft model to enable precise KV cache dropping, and (ii) **SpecPC**, which leverages draft model attention activations to identify and discard less important prompt tokens. Extensive experiments on long-context benchmarks demonstrate that our methods consistently achieve higher accuracy than existing baselines while retaining the same improvements in memory usage, latency, and throughput.
+
+---
+
+### 147. ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs
+<a id="147-OsZr5T7Cd0"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `OsZr5T7Cd0` |
+| **Number** | 4642 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **4**, **6**, **4** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=OsZr5T7Cd0) |
+
+**Keywords**: `diffusion LLMs`, `parallel decoding`, `benchmark`
+
+**Abstract**:
+
+> While most autoregressive LLMs are constrained to one-by-one decoding, diffusion LLMs (dLLMs) have attracted growing interest for their potential to dramatically accelerate inference through parallel decoding. Despite this promise, the conditional independence assumption in dLLMs causes parallel decoding to ignore token dependencies, inevitably degrading generation quality when these dependencies are strong. However, existing works largely overlook these inherent challenges, and evaluations on standard benchmarks (e.g., math and coding) are not sufficient to capture the quality degradation caused by parallel decoding. To address this gap, we first provide an information-theoretic analysis of parallel decoding. We then conduct case studies on analytically tractable synthetic list operations from both data distribution and decoding strategy perspectives, offering quantitative insights that highlight the fundamental limitations of parallel decoding. Building on these insights, we propose **ParallelBench**, the first benchmark specifically designed for dLLMs, featuring realistic tasks that are trivial for humans and autoregressive LLMs yet exceptionally challenging for dLLMs under parallel decoding. Using ParallelBench, we systematically analyze both dLLMs and autoregressive LLMs, revealing that: (i) dLLMs under parallel decoding can suffer dramatic quality degradation in real-world scenarios, and (ii) current parallel decoding strategies struggle to adapt their degree of parallelism based on task difficulty, thus failing to achieve meaningful speedup without compromising quality. Our findings underscore the pressing need for innovative decoding methods that can overcome the current speed-quality trade-off. We are releasing our benchmark to help accelerate the development of truly efficient dLLMs.
+
+---
+
+### 148. ScalingCache: Extreme Acceleration of DiTs through Difference Scaling and Dynamic Interval Caching
+<a id="148-uXmbrTlko7"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `uXmbrTlko7` |
+| **Number** | 5793 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **4**, **6**, **4** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=uXmbrTlko7) |
+
+**Keywords**: `​​Diffusion Transformer`, `Image generation`, `Video generation`, `Model Acceleration`, `Feature Cache`
+
+**Abstract**:
+
+> Diffusion Transformers (DiTs) have emerged as powerful generative models, but their iterative denoising structure and deep transformer blocks incur substantial computational overhead, limiting the accessibility and practical deployment of high-quality video generation. To address this bottleneck, we propose ScalingCache, a training-free acceleration framework specifically designed for DiTs. ScalingCache exploits the inherent redundancy in model representations by performing lightweight offline analysis on a small number of samples and dynamically reusing previously computed activations during inference, thereby avoiding full computation at certain denoising steps. Experimental results demonstrate that ScalingCache achieves significant acceleration in both image and video generation tasks while maintaining near-lossless generation quality. On widely used video generation models including Wan2.1 and HunyuanVideo, it achieves approximately 2.5$\times$ acceleration with only 0.5$\%$ drop in VBench scores; on FLUX, it achieves 3.1$\times$ near-lossless acceleration, with human preference tests showing comparable quality to original outputs. Moreover, under similar acceleration ratios, ScalingCache outperforms prior state-of-the-art caching strategies, achieving a 45$\%$ reduction in LPIPS for text-to-image generation and 20$-$30$\%$ reduction for text-to-video generation, highlighting its superior fidelity preservation.
+
+---
+
+### 149. Parallel Token Generation for  Language Models
+<a id="149-AGJomYSrUG"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `AGJomYSrUG` |
+| **Number** | 14536 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **4**, **6**, **2**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=AGJomYSrUG) |
+
+**Keywords**: `transformer`, `autoregressive model`, `multi-token prediction`, `generative model`, `large language models`
+
+**Abstract**:
+
+> Autoregressive transformers are the backbone of modern large language models. Despite their success, inference remains slow due to strictly sequential prediction. Prior attempts to predict multiple tokens per step typically impose independence assumptions across tokens, which limits their ability to match the full expressiveness of standard autoregressive models. In this work, we break this paradigm by proposing an efficient and universal framework to jointly predict multiple tokens in a single transformer call, without limiting the representational power. Inspired by ideas from inverse autoregressive normalizing flows, we convert a series of random variables deterministically into a token sequence, incorporating the sampling procedure into a trained model. This allows us to train parallelized models both from scratch and by distilling an existing autoregressive model. Empirically, our distilled model matches its teacher's output for an average of close to 50 tokens on toy data and 5 tokens on a coding dataset, all within a single forward pass.
+
+---
+
+### 150. LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences
+<a id="150-6RJ8fZwm4P"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `6RJ8fZwm4P` |
+| **Number** | 11436 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **2**, **6**, **4** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=6RJ8fZwm4P) |
+
+**Keywords**: `LLMs`, `KV cache retrieval`, `LLM inference acceleration`
+
+**Abstract**:
+
+> While Key-Value (KV) cache succeeds in reducing redundant computations in auto-regressive models, it introduces significant memory overhead, limiting its practical deployment in long-sequence scenarios. Existing KV retrieval methods attempt to mitigate this by dynamically retaining only a subset of KV entries on the GPU. However, they still suffer from notable efficiency and accuracy bottlenecks due to per-token retrieval and coarse-grained page-level KV management strategy, especially in long-output reasoning scenarios. With the emergence of large reasoning models, efficiently handling such scenarios has become increasingly important. To address this issue, we present two key observations: (1) critical KVs exhibit strong temporal locality during decoding, and (2) these KVs exhibit distinct distribution patterns across the input prompt and the generated output. Building on these observations, we propose LouisKV, an efficient KV cache retrieval framework designed for various long-sequence scenarios. Specifically, LouisKV introduces a semantic-aware retrieval strategy that leverages temporal locality to trigger retrieval only at semantic boundaries, drastically reducing computation and data transfer overhead. LouisKV also designs a decoupled, fine-grained management scheme that tailors differentiated strategies for input and output sequences to create retrieval units that better match the model's attention patterns, thereby enabling the precise identification of critical KVs. Furthermore, to boost system efficiency, LouisKV incorporates several kernel-level optimizations, including custom Triton and CUDA kernels to accelerate the KV clustering and retrieval. Evaluation results show that LouisKV achieves up to 4.7$\times$ speedup over state-of-the-art KV retrieval methods while maintaining near-lossless accuracy across diverse long-sequence tasks, including long-input short-output, short-input long-output, and long-input long-output scenarios.
+
+---
+
+### 151. PARD: Accelerating LLM Inference with Low‑Cost PARallel Draft Model Adaptation
+<a id="151-XbOyv7iVGL"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `XbOyv7iVGL` |
+| **Number** | 15276 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **6**, **2**, **4** |
+| **Primary Area** | generative models |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=XbOyv7iVGL) |
+
+**Keywords**: `LLM`, `Speculative Decoding`, `AI Infra`, `Low Cost Training`
+
+**Abstract**:
+
+> The autoregressive nature of large language models (LLMs) fundamentally limits inference speed, as each forward pass generates only a single token and is often bottlenecked by memory bandwidth. Speculative decoding has emerged as a promising solution, adopting a draft-then-verify strategy to accelerate token generation. While the EAGLE series achieves strong acceleration, its requirement of training a separate draft head for each target model introduces substantial adaptation costs. In this work, we propose \textbf{PARD (PARallel Draft)}, a novel speculative decoding method featuring \textit{target-independence} and \textit{parallel token prediction}. Specifically, PARD enables a single draft model to be applied across an entire family of target models without requiring separate training for each variant, thereby minimizing adaptation costs. Meanwhile, PARD substantially accelerates inference by predicting multiple future tokens within a single forward pass of the draft phase. To further reduce the training adaptation cost of PARD, we propose a COnditional Drop-token (COD) mechanism based on the integrity of prefix key-value states, enabling autoregressive draft models to be adapted into parallel draft models at low-cost.  Our experiments show that the proposed COD method improves draft model training efficiency by \textbf{3$\times$} compared with traditional masked prediction training. On the \texttt{vLLM} inference framework, PARD achieves up to \textbf{3.67$\times$} speedup on LLaMA3.1-8B, reaching \textbf{264.88} tokens per second, which is \textbf{1.15$\times$} faster than EAGLE-3.
+
+---
+
+### 152. Expected Attention: KV Cache Compression by Estimating Attention From Future Queries Distribution
+<a id="152-VmojW15eRc"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `VmojW15eRc` |
+| **Number** | 16706 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **4**, **4**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=VmojW15eRc) |
+
+**Keywords**: `KV Cache Compression; Large Language Models;Efficient Inference`
+
+**Abstract**:
+
+> Large language models encounter a significant memory bottleneck during inference due to the Key-Value (KV) cache, which stores past token representations and grows linearly with context length. Although using attention scores to evict KV pairs is promising, it is often impractical in real-world scenarios because the attention scores from future tokens have not yet been computed, and modern implementations like Flash Attention do not materialize the full attention matrix, making past scores inaccessible too. To address these limitations, we introduce $\textit{Expected Attention}$ , a training-free method that estimates a KV pair's importance by approximating how future queries will attend to it. By leveraging the distributional properties of activations in LLMs, we compute the expected attention score in closed form for each KV pair. This score is then used to rank and prune KV pairs with the smallest impact on the residual stream, achieving compression without performance loss. Crucially, our approach works in both prefilling and decoding tasks, consistently outperforming state-of-the-art baselines in both scenarios. We release all our code to enable researchers to implement and build upon our methods.
+
+---
+
+### 153. LoopServe:  An Adaptive Dual-phase LLM Inference Acceleration System for Multi-Turn Dialogues
+<a id="153-iyIzaoDVrT"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `iyIzaoDVrT` |
+| **Number** | 5636 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **6**, **2**, **4**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=iyIzaoDVrT) |
+
+**Keywords**: `LLM Inference Acceleration`, `KV Cache`, `Long-context Multi-Turn Dialogues`, `Efficient LLMs`
+
+**Abstract**:
+
+> Multi-turn dialogues are essential in many real-world applications of large language models, such as chatbots and virtual assistants. As conversation histories become longer, existing large language models face increasing computational and memory challenges, which hinder their ability to provide efficient and responsive interactions. Most current acceleration methods either compress the context or optimize key value caching, but they often rely on fixed or position-based heuristics that do not adapt well to the dynamic and unpredictable patterns found in actual multi-turn conversations. As a result, these models   cannot accurately identify and prioritize the most relevant context, leading to degraded response quality. In this paper, we present LoopServe, an adaptive dual-phase inference acceleration framework for large language models in multi-turn dialogues. LoopServe introduces two main innovations. 	First, it performs online sparsification during the prefilling phase by dynamically selecting the most important parts of the attention matrix for each new input.  Second, it uses progressive key value compression during decoding by adaptively maintaining a relevant and efficient cache based on the most recently generated output tokens. We also propose a new benchmark with eleven multi-turn datasets that reflect realistic query positions and conversational dependencies. Extensive experiments demonstrate that LoopServe consistently achieves superior effectiveness compared to existing baselines and significantly accelerates LLM inference across a wide range of long-context dialogue tasks.
+
+---
+
+### 154. Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models
+<a id="154-KNAyc9DMe3"></a>
+
+| | |
+|---|---|
+| **Paper ID** | `KNAyc9DMe3` |
+| **Number** | 2125 |
+| **Similarity** | N/A (from additional source) |
+| **Reviews** | 2/4 positive |
+| **Ratings** | **2**, **4**, **8**, **6** |
+| **Primary Area** | foundation or frontier models, including LLMs |
+| **Forum** | [🔗 OpenReview](https://openreview.net/forum?id=KNAyc9DMe3) |
+
+**Keywords**: `Diffusion Language Models`, `Reinforcement Learning`
+
+**Abstract**:
+
+> The extension of diffusion models to language tasks has shown promising results, but their post-training methods remain largely unexplored. We highlight the importance of aligning a diffusion language model’s preference-inference trajectory with its post-training objective. To this end, we propose TraceRL, a trajectory-aware reinforcement learning framework for DLMs that incorporates information from inference trajectories into post-training and is applicable to both full-attention and block-attention diffusion models. We also introduce a diffusion-based value model that enhances training stability and naturally accommodates process rewards. We demonstrate TraceRL’s superiority in enhancing a model’s reasoning ability on complex math and coding tasks, as well as its applicability in scaling block diffusion models to larger block sizes. Employing TraceRL, we derive a series of state-of-the-art diffusion language models, namely TraDo. Although smaller than Qwen2.5-7B-Instruct, TraDo-4B-Instruct consistently outperforms it on complex math reasoning tasks. TraDo-8B-Instruct achieves 4.5% higher accuracy on MATH500 than Qwen2.5-7B-Instruct and 6.6% higher accuracy on LiveCodeBench-V2 than Llama3.1-8B-Instruct. Through curriculum learning, we also develop the first 8B-scale long-CoT diffusion language model.
+
+---
+
 ## 📈 Statistics
 
-- **Average Similarity**: 0.7376
-- **Papers with 3+ Positive Reviews**: 52 (46.4%)
-- **Papers with 2 Positive Reviews**: 60 (53.6%)
+- **Average Similarity**: 0.7382 (calculated from 112 papers with similarity scores)
+- **Papers with 3+ Positive Reviews**: 69 (44.8%)
+- **Papers with 2 Positive Reviews**: 85 (55.2%)
 
 ### Distribution by Primary Area
 
-- **foundation or frontier models, including LLMs**: 37 papers (33.0%)
-- **generative models**: 35 papers (31.2%)
-- **applications to computer vision, audio, language, and other modalities**: 29 papers (25.9%)
-- **alignment, fairness, safety, privacy, and societal considerations**: 4 papers (3.6%)
-- **datasets and benchmarks**: 2 papers (1.8%)
-- **unsupervised, self-supervised, semi-supervised, and supervised representation learning**: 2 papers (1.8%)
-- **applications to robotics, autonomy, planning**: 1 papers (0.9%)
-- **interpretability and explainable AI**: 1 papers (0.9%)
-- **transfer learning, meta learning, and lifelong learning**: 1 papers (0.9%)
+- **foundation or frontier models, including LLMs**: 57 papers (37.0%)
+- **generative models**: 54 papers (35.1%)
+- **applications to computer vision, audio, language, and other modalities**: 29 papers (18.8%)
+- **alignment, fairness, safety, privacy, and societal considerations**: 4 papers (2.6%)
+- **datasets and benchmarks**: 2 papers (1.3%)
+- **unsupervised, self-supervised, semi-supervised, and supervised representation learning**: 2 papers (1.3%)
+- **applications to robotics, autonomy, planning**: 1 papers (0.6%)
+- **interpretability and explainable AI**: 1 papers (0.6%)
+- **transfer learning, meta learning, and lifelong learning**: 1 papers (0.6%)
+- **infrastructure, software libraries, hardware, systems, etc.**: 1 papers (0.6%)
+- **learning theory**: 1 papers (0.6%)
+- **other topics in machine learning (i.e., none of the above)**: 1 papers (0.6%)
 
 ### Top 15 Keywords
 
 1. **Multimodal Large Language Models** (8 papers)
-2. **Image Editing** (6 papers)
-3. **Reinforcement Learning** (6 papers)
-4. **Diffusion Models** (6 papers)
+2. **Reinforcement Learning** (7 papers)
+3. **Diffusion Models** (7 papers)
+4. **Image Editing** (6 papers)
 5. **Large Vision-Language Models** (6 papers)
 6. **Multimodal Large Language Model** (5 papers)
-7. **Vision-Language Models** (5 papers)
-8. **Diffusion** (3 papers)
-9. **VLM** (3 papers)
-10. **Image Generation** (3 papers)
-11. **Diffusion Model** (3 papers)
-12. **Multimodal LLM** (3 papers)
-13. **Unified Multimodal Model** (3 papers)
-14. **Multimodal** (3 papers)
-15. **MLLM** (3 papers)
+7. **Diffusion Language Models** (5 papers)
+8. **Vision-Language Models** (5 papers)
+9. **large language models** (4 papers)
+10. **Diffusion LLM** (4 papers)
+11. **Inference Acceleration** (4 papers)
+12. **Diffusion** (3 papers)
+13. **efficiency** (3 papers)
+14. **VLM** (3 papers)
+15. **Image Generation** (3 papers)
 
 ---
 
